@@ -1,5 +1,5 @@
- @import url('https://fonts.googleapis.com/css?family=Dancing Scrip|Amatic SCt&display=swap');
-h1{
+ @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script&display=swap');
+ h1{
     text-align: center;
 }
 h2{
@@ -8,8 +8,13 @@ h2{
 .email{
     font-family:"Dancing Script";
     color:blue;
-    font-style:italic;
+    font-weight:bold;
+    font-size:18px;
 }
 .shift{
     text-align:right;
+}
+.edu{
+    font-size:30px;
+    font-weight:bold;
 }
