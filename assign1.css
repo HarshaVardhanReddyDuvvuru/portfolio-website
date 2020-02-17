@@ -1,20 +1,39 @@
- @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script&display=swap');
- h1{
+ @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Oswald|Tomorrow&display=swap');
+body{
+    background-color:lightgray;
+    border-style: solid;
+}
+h1{
     text-align: center;
 }
 h2{
-    color:skyblue;
+    color:Green;
+}
+ol{
+    font-family:"Oswald";
+}
+ul{
+    font-family:"Tomorrow";
 }
 .email{
     font-family:"Dancing Script";
     color:blue;
     font-weight:bold;
-    font-size:18px;
+    font-size:20px;
 }
 .shift{
     text-align:right;
 }
 .edu{
-    font-size:30px;
     font-weight:bold;
+}
+.date{
+    font-family:"Amatic SC";
+}
+.degree{
+    font-style:italic;
+}
+.branch{
+    color:blue;
+    font-weight:700;
 }
