@@ -2,9 +2,12 @@
 body{
     background-color:lightgray;
     border-style: solid;
+    padding-left:15px;
+    padding-right:15px; 
 }
 h1{
     text-align: center;
+    
 }
 h2{
     color:Green;
@@ -36,4 +39,12 @@ ul{
 .branch{
     color:blue;
     font-weight:700;
+}
+.image{
+    text-align:right;
+}
+.divi{
+    background-color: red;
+    height:150px;
+    width:200px;
 }
