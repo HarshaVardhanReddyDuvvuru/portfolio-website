@@ -1,0 +1,32 @@
+body{
+    padding-left:5%;
+    margin:0;
+}
+.proj{
+    font-size:30px;
+}
+.dec{
+    border-bottom:1px solid blue;
+}
+.bol{
+    font-weight:bold;
+}
+.box{
+    display:inline-block;
+    width:23%;
+    height:23%;
+    background-color:white;
+    border-radius:7%;
+    padding-left:5%;
+}
+h1{
+    color:blue;
+    font-size:180%;
+}
+h2{
+    font-size:130%;
+}
+.end{
+    margin-right:5%;
+}
+
