@@ -1,0 +1,42 @@
+body{
+    margin-right:0%;
+}
+.line1{
+    display:inline-block;
+    background-color:purple;
+    width:99%;
+    height:50px;
+    margin-bottom:10px;
+}
+.line2{
+    display:inline-block;
+    background-color:blue;
+    height:50px;
+    width:49%;
+    margin-right:1%;
+    margin-bottom: 10px;
+}
+.line3{
+    display:inline-block;
+    background-color:purple;
+    height:50px;
+    width:32.33%;
+    margin-right:1%;
+    margin-bottom: 10px;
+}
+.line4{
+    display:inline-block;
+    background-color:blue;
+    height:50px;
+    width:24%;
+    margin-right:1%;
+    margin-bottom: 10px;
+}
+.line5{
+    display:inline-block;
+    background-color:purple;
+    height:50px;
+    width:7.33%;
+    margin-right:1%;
+    margin-bottom: 10px;
+}
