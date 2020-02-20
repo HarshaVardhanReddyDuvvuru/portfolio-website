@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+.container{
+    padding-left:10px;
+    font-family:"Roboto";
+}
+.head{
+    font-size:24px;
+}
+.underline{
+    border-bottom:1.5px solid dodgerblue;
+}
+.info{
+    font-size:18px;
+    font-weight:700;
+}
+.media{
+    padding-left:75px;
+    font-size:23px;
+    color:royalblue;
+    font-weight:900;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.gap{
+    margin-right:35px;
+}
+.extragap{
+    padding-left:10px;
+}
