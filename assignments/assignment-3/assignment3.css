@@ -1,12 +1,12 @@
 body{
+    background-color:#f5f5f5;
     padding-left:5%;
-    margin:0;
 }
 .proj{
     font-size:30px;
 }
 .dec{
-    border-bottom:1px solid blue;
+    border-bottom:1px solid rgb(30, 130, 255);
 }
 .bol{
     font-weight:bold;
@@ -20,7 +20,7 @@ body{
     padding-left:5%;
 }
 h1{
-    color:blue;
+    color:rgb(30, 130, 255);
     font-size:180%;
 }
 h2{

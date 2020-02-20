@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Monofett|Monoton|Oswald|Lacquer&display=swap');
+.alignment{
+    vertical-align:middle; 
+}
+.hobby{
+    font-size:18px;
+    margin-left:20px;
+    font-family:"Oswald";
+    vertical-align:middle;
+}
+li{
+    margin-bottom:5%;
+}
+ul{
+    padding-left:3%;
+}
+.bold{
+    font-weight:bold;
+}
+.underline{
+  border-bottom:2px solid blue;  
+}
+.size{
+    font-size:25px;
+}
+/*.container{*/
+/*    width:45%;*/
+/*    height:100%;*/
+/*    background:white;*/
+/*    padding-left:7%;*/
+/*}*/
+/*.proj{*/
+/*    font-size:180%;*/
+/*}*/
+/*.dec{*/
+/*    border-bottom:2px solid rgb(30, 130, 255);*/
+/*}*/
+/*.bold{*/
+/*    font-weight:bold;*/
+/*}*/
+/*.hobbies{*/
+/*    margin-bottom:5%;*/
+/*}*/
+/*.vertical{*/
+/*    vertical-align:middle;*/
+/*}*/
+/*.font{*/
+/*    margin-left:3%;*/
+/*    font-size:180%;*/
+/*}*/
