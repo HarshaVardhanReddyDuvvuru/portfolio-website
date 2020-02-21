@@ -1,32 +1,43 @@
 body{
-    background-color:Azure;
+    background-color:#ecf3ff;
 }
 .header{
      font-size:20px;
      font-weight:bold;
+     margin-bottom:20px;
 }
 .center-align{
     text-align:center;
+}
+.p1{
+    margin-bottom:10px;
+}
+.p2{
+    margin-bottom:10px;
 }
 .domain1{
     display:inline-block;
     width:60px;
     height:20px;
-    background-color:skyblue;
+    background-color:slateblue;
     border: 0px solid blue;
     border-radius:10px;
     color:white;
+    margin-top:15px;
 }
 .domain2{
     display:inline-block;
     width:120px;
     height:20px;
+    background-color:white;
     border:1px solid gray;
     border-radius:10px;
-    vertical-align:bottom; 
+    vertical-align:bottom;
+    opacity:0.6;
 }
 .domain3{
     display:inline-block;
+    background-color:white;
     width:140px;
     height:20px;
     border:1px solid black;
@@ -34,26 +45,28 @@ body{
 }
 .sub-domain{
     display:inline-block;
-    width:25%;
-    height:8%;
+    width:300px;
+    height:40px;
     margin-top:3%;
-    padding-left:3%;
-    margin-right:2%;
+    margin-right:10px;
     background-color:white;
+    padding-left:10px;
+    padding-top:15px;
+    font-family:600px;
 }
 .sub-color2{
-    border-left:3px solid grey;
+    border-left:5px solid grey;
 }
 .sub-color1{
-    border-left:3px solid skyblue;
+    border-left:5px solid skyblue;
 }
 .footer{
    color:white;
-   height:25px;
-   width:250px;
+   height:22px;
+   width:200px;
    margin:auto;
    background:orange;
-   padding-top:10px;
+   padding-top:5px;
 }
 .zeromargin{
     margin-right:0;
@@ -68,9 +81,21 @@ body{
 .main{
     margin-right:15px;
 }
-.image-gap{
-    padding-left:20%;
+.image1-gap{
+    padding-left:80px;
+}
+.image2-gap{
+    padding-left:40px;
+}
+.image3-gap{
+    padding-left:95px;
+}
+.image4-gap{
+    padding-left:115px;
 }
 .end-note{
-    font-size:14px;
+    font-size:12px;
+}
+.soon{
+    font-size:10px;
 }
