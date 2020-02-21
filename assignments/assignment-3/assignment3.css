@@ -2,13 +2,13 @@ body{
     background-color:#f5f5f5;
     padding-left:5%;
 }
-.proj{
+.header{
     font-size:30px;
 }
-.dec{
+.underline{
     border-bottom:1px solid rgb(30, 130, 255);
 }
-.bol{
+.bold{
     font-weight:bold;
 }
 .box{
@@ -26,7 +26,7 @@ h1{
 h2{
     font-size:130%;
 }
-.end{
+.margin{
     margin-right:5%;
 }
 
