@@ -1,52 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 *{
-    font-family:"ROBOTO";
+    font-family:"Roboto";
 }
 body{
-    padding-top:80px;
     margin:0%;
+    padding-top:50px;
 }
 .wrap{
     background-color:#f5f5f5;
     width:100%;
-    padding:30px;
-    height:70%;
-}
-.heading{
-    font-size:45px;
-    margin-bottom:30px;
-    margin-top:0;
+    padding-left:2.5%;
+    padding-bottom:50px;
 }
 .underline{
     border-bottom:2px solid dodgerblue;
-}
-.bold{
-    font-weight:bold;
+    font-weight:900;
 }
 .box{
     display:inline-block;
-    width:25%;
-    height:25%;
+    width:30%;
+    height:30%;
     background-color:white;
     border-radius:7%;
-    padding-left:25px;
-    padding-right:30px;
 }
-h1{
-    color:dodgerblue;
-    font-size:40px;
-    margin-top:20px;
-    margin-bottom:-25px;
-}
-h2{
-    font-size:40px;
- }
 .margin{
-    margin-right:40px;
+    margin-right:2.5%;
 }
 .container{
     text-align:center;
 }
 .opacity{
     opacity:0.5;
+}
+h2{
+    color:dodgerblue;
 }
