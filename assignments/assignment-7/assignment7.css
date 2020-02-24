@@ -16,10 +16,6 @@
     display: inline-block;
     box-sizing: border-box;
     padding:20px;
-    min-height:200px;
-}
-.space{
-    margin-top:50px;
 }
 .center{
     text-align:center;
