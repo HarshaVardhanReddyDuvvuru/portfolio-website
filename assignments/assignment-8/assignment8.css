@@ -1,42 +1,53 @@
-      body{
+body{
         margin:0;
         height:719px;
         background-image:url(assets/bg-image.jpg);
         background-repeat:no-repeat;
         background-position:center;
         background-size:cover;
-      }
-      .img{
-        text-align:center;
-        padding-top:15%;
-      }
-      .clip{
-        -webkit-clip-path: circle(33.6% at 50% 50%);
-        clip-path: circle(33.6% at 50% 50%);
-        margin-left:35%;
-      }
-      .color{
+  
+}
+      
+.imageconatainer{
+        height:719px;
+        width:100%;
+}
+      
+.image{
+        width:200px;
+        height:200px;
+        background-image:url(../../id.jpg);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        border-radius:50%;
+        border:5px solid white;
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+        margin:auto;
+        margin-top:250px;
+}
+      
+.intro{
         color:white;
         text-align:center;
-      }
-      .box{
+}
+      
+.personal-info{
         width:90%;
         box-sizing:border-box;
         background:white;
         border-radius:50px;
         padding: 20px 150px 20px 150px;
         margin-left:50px;
-        margin-top:105px;
+        margin-top:370px;
         /*border:1px solid blue;*/
-      }
-      span{
+}
+      
+span{
         margin-right:30px;
-      }
-      .border{
-        width:312px;
-        height:312px;
-        background:white;
-      }
-      .gap{
-        margin:6px;
-      }
+}
+      
+      /*.img{*/
+      /*  text-align:center;*/
+      /*  padding-top:15%;*/
+      /*}*/
