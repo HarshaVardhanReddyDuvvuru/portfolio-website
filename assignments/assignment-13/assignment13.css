@@ -1,0 +1,23 @@
+.header{
+    font-size:40px;
+}
+.bold{
+    font-weight:bold;
+}
+.underline{
+    border-bottom:4px solid dodgerblue;   
+}
+.container{
+    margin:20px;
+}
+.tech{
+    text-align:center;
+    background:dodgerblue;
+    color:white;
+    margin-bottom:20px;
+    padding:20px;
+}
+.content{
+    margin-top:30px;
+    
+}
