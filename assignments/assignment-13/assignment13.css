@@ -7,17 +7,14 @@
 .underline{
     border-bottom:4px solid dodgerblue;   
 }
-.container{
-    margin:20px;
-}
 .tech{
+    padding-top:30px;
     text-align:center;
     background:dodgerblue;
     color:white;
-    margin-bottom:20px;
-    padding:20px;
+    /*margin:20px;*/
+    /*margin-bottom:20px;*/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    op:30px;
 }
-.content{
-    margin-top:30px;
-    
+.gap{
+    margin-bottom:20px;
 }
