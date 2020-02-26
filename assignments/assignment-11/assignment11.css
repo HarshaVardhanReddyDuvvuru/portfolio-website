@@ -1,0 +1,30 @@
+.col-4{
+    border-radius:10px;
+    background:lightgray;
+    text-align:center;
+    padding-top:70px;
+}
+.col-5{
+    border-radius:10px;
+    background:lightgray;
+    text-align:center;
+    padding-top:40px;
+}
+.button{
+    padding:5px;
+    text-align:center;
+    margin-left:10px;
+    background:dodgerblue;
+    color:white;
+    border-radius:5px;
+}
+.common{
+    border-radius:10px;
+    background:lightgray;
+    text-align:center;
+    padding-top:50px;
+}
+.container{
+    margin-top:10px;
+    margin-bottom:10px;
+}
