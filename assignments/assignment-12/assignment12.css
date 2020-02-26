@@ -1,0 +1,14 @@
+.domain{
+    border-radius:10px;
+    background:gray;
+    text-align:center;
+}
+.button{
+    padding:5px;
+    text-align:center;
+    margin-left:10px;
+    background:dodgerblue;
+    color:white;
+    border-radius:5px;
+}
+
