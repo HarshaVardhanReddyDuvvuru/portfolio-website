@@ -6,6 +6,7 @@
   height:350px;
   background-image:url(assets/rabbit.jpeg);
   background-size:cover;
+  background-repeat:no-repeat;
 }
 .frame{
   width:250px;
