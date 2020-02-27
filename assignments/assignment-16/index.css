@@ -1,0 +1,15 @@
+.heading{
+    text-align:center;
+    font-size:35px;
+    font-weight:400;
+}
+.content{
+    font-size:25px;
+    font-weight:400;
+}
+.gap{
+    margin-top:80px;
+}
+.opacity{
+    opacity:0.5;
+}
