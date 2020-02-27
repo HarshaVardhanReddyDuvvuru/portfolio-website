@@ -5,7 +5,7 @@
     margin-bottom: 10px;
     font-size:14px;
     border:2px solid black;
-    text-align: center;
+    padding-left:10px;
 }
 .small{
     padding-top:20px;
@@ -13,8 +13,8 @@
     background: #00c8ff;
     margin-bottom: 20px;
     font-size:16px;
-    text-align: center;
     border:2px dashed black;
+    padding-left:20px;
 }
 
 .med{
@@ -23,8 +23,8 @@
     background: #246caf;
     margin-bottom: 30px;
     font-size:18px;
-    text-align: center;
     border:2px dotted black;
+    padding-left:30px;
 }
 
 .large{
