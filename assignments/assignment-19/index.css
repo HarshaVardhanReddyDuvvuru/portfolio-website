@@ -37,6 +37,21 @@ p{
 .cardgapabove{
     margin-top:10px;
 }
+.cardlgapbelow{
+    margin-bottom:40px;
+}
 .cardgap{
     margin-top:-20px;
+}
+.header{
+    font-size:14px;
+}
+.bar{
+    margin-right: 15px;
+}
+.signup{
+    margin-top:-10px;
+}
+.lgap{
+    margin-top:0px;
 }
