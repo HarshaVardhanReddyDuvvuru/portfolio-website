@@ -1,0 +1,67 @@
+.bg{
+        background-image:url(assets/background-image.jpeg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        
+      }
+.gradientbg{
+        background-image:linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+        border-radius:20px;
+        background-siz                      e:contain;
+        opacity: 0.7;
+}
+.righte{
+        text-align:right;
+}
+.contentbg{
+        background:black;
+}
+.contentcolor{
+        color:white;
+}
+.sunbg{
+        background:white;
+        border-radius: 5px;
+        text-align:center;
+}
+.otherbg{
+        color:white;
+}
+.location{
+        margin-top:30px;
+        border-radius:20px;
+        background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+        color:white;
+        text-align: center;
+        padding-top:15px;
+}
+.contentmargin{
+        margin:auto;
+}
+.locationcenter{
+        vertical-align:middle;
+}
+.sun{
+        margin-top:50px;
+}
+.leftcolor{
+        color:white;
+}
+.windspace{
+        margin-bottom:20px;
+}
+.center{
+        text-align:center;
+}
+.end-right{
+        text-align:right;
+}
+.space1{
+     margin-left:40px;
+}
+.space2{
+        margin-left:50px;
+}
+.space3{
+        margin-left:60px;
+}
