@@ -55,3 +55,14 @@ p{
 .lgap{
     margin-top:0px;
 }
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.aboutspace{
+    margin-top:20px;
+}
+.conatiner{
+    background:black;
+}
