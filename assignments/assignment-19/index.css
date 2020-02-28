@@ -9,7 +9,7 @@ p{
 }
 
 .gap1{
-    margin-top:50px;
+    margin-top:40px;
 }
 
 .gap2{
@@ -17,4 +17,26 @@ p{
 }
 .font{
     font-size:16px;
+}
+.logo{
+    margin-top:15px;
+}
+.copyright{
+    font-size:12px;
+    margin-left:5px;
+}
+.price{
+    font-size:25px;
+}
+.month{
+    color:gray;
+}
+.linespace{
+    line-height:0.4;
+}
+.data-gap{
+    margin-top:10px;
+}
+.cardgapabove{
+    margin-top:10px;
 }
