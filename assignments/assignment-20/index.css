@@ -58,10 +58,6 @@
 .blackbg{
         background-color: black;
 }
-body{
-        margin-left:10px;
-        border-radius:20px;
-}
 .datenplace{
         font-size:14px;
         line-height:1px;
@@ -81,4 +77,13 @@ body{
 }
 .align-right{
         text-align: right;
+}
+.icons{
+        margin-top:10px;
+}
+.weeks{
+        margin-top:10px;
+}
+.pad0{
+    padding:0px; 
 }
