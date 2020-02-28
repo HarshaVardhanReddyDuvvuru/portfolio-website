@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="container ">
+  <div class="container d-md-none">
     <div class="row">
       <div class="col-12">
         <h6 class="center">Company-name</h6>
@@ -33,7 +33,7 @@
           Quickly build an effective pricing table for your potential customers with this bootstrap examle. It's built with default Bootstrap components and utilities with little customization.
         </p>
       </div>
-      <div class="col-12 cardgapabove shadow p-3 mb-5 bg-light rounded">
+      <div class="col-12 cardgapabove shadow-sm p-3 mb-5 bg-light rounded">
         <div class="card">
           <div class="card-header center">
             <h5>Free</h5>
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 shadow p-3 mb-5 bg-light rounded">
+      <div class="col-12 shadow-sm p-3 mb-5 bg-light rounded cardgap">
         <div class="card">
           <div class="card-header center">
             <h5>Pro</h5>
@@ -67,7 +67,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 shadow p-3 mb-5 bg-light rounded">
+      <div class="col-12 shadow-sm p-3 mb-5 bg-light rounded cardgap">
         <div class="card">
           <div class="card-header center">
             <h5>Enterprise</h5>
@@ -91,25 +91,127 @@
       </div>
       <div class="col-6">
         <h5>Features</h5>
-        <p>Random feature</p>
-        <p>Team feature</p>
-        <p>stuff for developers</p>
-        <p>Another one</p>
-        <p>Last time</p>
+        <p class="linespace">Random feature</p>
+        <p class="linespace">Team feature</p>
+        <p class="linespace">stuff for developers</p>
+        <p class="linespace">Another one</p>
+        <p class="linespace">Last time</p>
       </div>
       <div class="col-6">
         <h5>Resources</h5>
-        <p>Resource</p>
-        <p>Resource name</p>
-        <p>Another resource</p>
-        <p>Final resource</p>
+        <p class="linespace">Resource</p>
+        <p class="linespace">Resource name</p>
+        <p class="linespace">Another resource</p>
+        <p class="linespace">Final resource</p>
       </div>
       <div class="col-6">
         <h5>About</h5>
-        <p>Team</p>
-        <p>Locations</p>
-        <p>Privacy</p>
-        <p>Terms</p>
+        <p class="linespace">Team</p>
+        <p class="linespace">Locations</p>
+        <p class="linespace">Privacy</p>
+        <p class="linespace">Terms</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container d-none d-md-block d-lg-none">
+    <div class="row">
+      <div class="col-12">
+        <h6 class="center">Company-name</h6>
+      </div>
+      <div class="col-12 center info">
+        <span class="col-2">Features</span>
+        <span class="col-2">Enterprise</span>
+        <span class="col-2">support</span>
+        <span class="col-2">Pricing</span>
+      </div>
+      <div class="col-12 center start">
+        <button type="button" class="btn btn-outline-primary">Sign up</button>
+        <hr>
+      </div>
+      <div class="col-12 center gap1">
+        <h1>Pricing</h1>
+        <p class="font">
+          Quickly build an effective pricing table for your potential customers with this bootstrap examle. It's built with default Bootstrap components and utilities with little customization.
+        </p>
+      </div>
+      <div class="col-6 cardgapabove shadow-sm p-3 mb-5 bg-light rounded cardgap">
+        <div class="card">
+          <div class="card-header center">
+            <h5>Free</h5>
+          </div>
+          <div class="card-body center">
+            <h5 class="card-title"><span class="price">$0 </span><span class="month">/ mo</span></h5>
+            <p class="card-text linespace">
+              <p class="linespace">10 users included</p>
+              <p class="linespace">2 GB of storage</p>
+              <p class="linespace">Email support</p>
+              <p class="linespace">Help center access</p>
+            </p>
+            <button type="button" class="btn btn-outline-primary col-12 data-gap">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 shadow-sm p-3 mb-5 bg-light rounded cardgap">
+        <div class="card">
+          <div class="card-header center">
+            <h5>Pro</h5>
+          </div>
+          <div class="card-body center">
+            <h5 class="card-title"><span class="price">$15 </span><span class="month">/ mo</span></h5>
+            <p class="card-text">
+              <p class="linespace">20 users included</p>
+              <p class="linespace">10 GB of storage</p>
+              <p class="linespace">priority Email support</p>
+              <p class="linespace">Help center access</p>
+            </p>
+            <a href="#" class="btn btn-primary col-12 data-gap">Get started</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 shadow-sm p-3 mb-5 bg-light rounded cardgap">
+        <div class="card">
+          <div class="card-header center">
+            <h5>Enterprise</h5>
+          </div>
+          <div class="card-body center">
+            <h5 class="card-title">$29 / mo</h5>
+            <p class="card-text">
+              <p class="linespace">30 users included</p>
+              <p class="linespace">15 GB of storage</p>
+              <p class="linespace">phone and Email support</p>
+              <p class="linespace">Help center access</p>
+            </p>
+            <a href="#" class="btn btn-primary col-12 data-gap">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="col-12 logo">
+        <img src="../../boot.png" width=30px height=30px alt="bootstrap logo">
+        <p class="copyright">© 2017-2018</p>
+      </div>
+      <div class="col-6">
+        <h5>Features</h5>
+        <p class="linespace">Random feature</p>
+        <p class="linespace">Team feature</p>
+        <p class="linespace">stuff for developers</p>
+        <p class="linespace">Another one</p>
+        <p class="linespace">Last time</p>
+      </div>
+      <div class="col-6">
+        <h5>Resources</h5>
+        <p class="linespace">Resource</p>
+        <p class="linespace">Resource name</p>
+        <p class="linespace">Another resource</p>
+        <p class="linespace">Final resource</p>
+      </div>
+      <div class="col-6">
+        <h5>About</h5>
+        <p class="linespace">Team</p>
+        <p class="linespace">Locations</p>
+        <p class="linespace">Privacy</p>
+        <p class="linespace">Terms</p>
       </div>
     </div>
   </div>
