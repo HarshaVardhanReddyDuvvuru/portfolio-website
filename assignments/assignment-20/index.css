@@ -23,31 +23,38 @@
         font-size:14px;
 }
 .sunbg{
+        padding-left:20px;
+        padding-right:10px;
         background:white;
         border-radius: 5px;
         text-align:center;
-        margin-bottom:20px;
+        margin-bottom:-10px;
 }
 .weather-column-color{
         color:white;
 }
 .location-bar{
-        margin-top:30px;
+        height:30px;
+        margin-top:50px;
         border-radius:30px;
         background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
         color:white;
         text-align: center;
-        padding-top:10px;
+        padding-top:4px;
         font-size:14px;
 }
 .aside-margin{
         margin-left:10px;
+        margin-right:10px;
 }
 .locationcenter{
         vertical-align:middle;
 }
+.column-bar-top{
+        margin-top:10px;
+}
 .sun-top{
-        margin-top:50px;
+        margin-top: 50px;
 }
 .main-content-color{
         color:white;
@@ -78,7 +85,7 @@
 .space{
         padding-top:20px;
 }
-.cut{
+.border-round{
         border-radius:20px;
 }
 .align-right{
@@ -86,20 +93,21 @@
         margin-left:10px;
 }
 .icons{
-        margin-top:10px;
+        margin-top:5px;
 }
 .weeks{
         font-size:14px;
 }
-.card1pad{
+.main-content-padding{
     padding-left:5px; 
 }
 .temp{
         font-size:14px;
-}
-.endleft{
-        margin-left:-6px;
+        margin-left:-2px;
 }
 .shrink{
         margin-right:-10px;
+}
+.endleft{
+  margin-left:-15px;      
 }
