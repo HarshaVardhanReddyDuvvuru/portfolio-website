@@ -1,6 +1,6 @@
-/**{*/
-/*        border:2px solid green;*/
-/*}*/
+.conatiner{
+        margin:20px;
+}
 .bg{
         background-image:url(assets/background-image.jpeg);
         /*background-size:cover;*/
@@ -11,7 +11,7 @@
 .gradientbg{
         background-image:linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
         border-radius:20px;
-        /*background-size:cover;  */
+        /*background-size:cover;*/
         opacity:0.8;
 }
 .righte{
@@ -26,12 +26,12 @@
         background:white;
         border-radius: 5px;
         text-align:center;
+        margin-bottom:20px;
 }
-.otherbg{
+.weather-column-color{
         color:white;
-        margin-right:0px; 
 }
-.location{
+.location-bar{
         margin-top:30px;
         border-radius:30px;
         background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
@@ -40,16 +40,16 @@
         padding-top:10px;
         font-size:14px;
 }
-.contentmargin{
-        margin:auto;
+.aside-margin{
+        margin-left:10px;
 }
 .locationcenter{
         vertical-align:middle;
 }
-.sun{
+.sun-top{
         margin-top:50px;
 }
-.leftcolor{
+.main-content-color{
         color:white;
 }
 .windspace{
@@ -83,6 +83,7 @@
 }
 .align-right{
         text-align: right;
+        margin-left:10px;
 }
 .icons{
         margin-top:10px;
@@ -98,4 +99,7 @@
 }
 .endleft{
         margin-left:-6px;
+}
+.shrink{
+        margin-right:-10px;
 }
