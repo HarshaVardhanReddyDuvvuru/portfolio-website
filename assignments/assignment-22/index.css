@@ -1,0 +1,46 @@
+body{
+    background-color:AliceBlue;
+    padding:20px;
+}
+.heading{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.card-center{
+    margin:auto;
+}
+.card-color{
+    background:white;
+    border-radius:5px;
+}
+.content-gap{
+    margin-top:30px;
+}
+.content-gap-2{
+    margin-top:20px;
+}
+.content-font{
+    font-size:14px;
+    /*line-height:1;*/
+}
+.card-card-gap{
+    margin-top:25px;
+}
+/*.card-card-gap-md{*/
+/*    margin-left:15px;*/
+/*    margin-bottom:20px;*/
+/*}*/
+.button{
+    margin-top:50px;
+    margin-bottom:40px;
+    padding:10px;
+    height:40px;
+    background-color:skyblue;   
+    color:white;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:bold;
+}
+.card-bottom-gap{
+    padding-bottom:10px;
+}
