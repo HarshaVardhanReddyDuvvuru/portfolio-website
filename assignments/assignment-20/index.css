@@ -1,20 +1,26 @@
+/**{*/
+/*        border:2px solid green;*/
+/*}*/
 .bg{
         background-image:url(assets/background-image.jpeg);
         /*background-size:cover;*/
         background-repeat:no-repeat;
         border-radius:20px;
+        
       }
 .gradientbg{
         background-image:linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
         border-radius:20px;
         /*background-size:cover;  */
-        opacity: 0.7;
+        opacity:0.8;
 }
 .righte{
         text-align:right;
 }
 .contentcolor{
         color:white;
+        margin-left:-10px;
+        font-size:14px;
 }
 .sunbg{
         background:white;
@@ -23,6 +29,7 @@
 }
 .otherbg{
         color:white;
+        margin-right:0px; 
 }
 .location{
         margin-top:30px;
@@ -32,7 +39,6 @@
         text-align: center;
         padding-top:10px;
         font-size:14px;
-        box-sizing: border-box;
 }
 .contentmargin{
         margin:auto;
@@ -82,8 +88,14 @@
         margin-top:10px;
 }
 .weeks{
-        margin-top:10px;
+        font-size:14px;
 }
-.pad0{
-    padding:0px; 
+.card1pad{
+    padding-left:5px; 
+}
+.temp{
+        font-size:14px;
+}
+.endleft{
+        margin-left:-6px;
 }
