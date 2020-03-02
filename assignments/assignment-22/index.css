@@ -26,10 +26,16 @@ body{
 .card-card-gap{
     margin-top:25px;
 }
-/*.card-card-gap-md{*/
-/*    margin-left:15px;*/
-/*    margin-bottom:20px;*/
-/*}*/
+.card-gap-right-md{
+    margin-right:5px;
+}
+.card-gap-bottom-md{
+    margin-bottom:10px;    
+}
+.img{
+    margin-top:40px;
+    margin-bottom:25px;
+}
 .button{
     margin-top:50px;
     margin-bottom:40px;
@@ -40,7 +46,4 @@ body{
     border-radius:5px;
     font-size:16px;
     font-weight:bold;
-}
-.card-bottom-gap{
-    padding-bottom:10px;
 }
