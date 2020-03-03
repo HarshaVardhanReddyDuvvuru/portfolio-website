@@ -1,4 +1,7 @@
 .font{
     font-size:14px;
-    opacity:0.5;
+    /*opacity:0.5;*/
 }
+ .bg{
+     background-color:#f5f6f6;
+ }
