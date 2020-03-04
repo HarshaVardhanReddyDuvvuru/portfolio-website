@@ -1,10 +1,10 @@
 .box{
-    height:65px;
-    width:65px;
+    height:60px;
+    width:60px;
     background-color: Aliceblue;
     padding-top:20px;
 }
 .bg{
-    background-color:lightgray;
-    padding:7px;
+    background:Aliceblue;
+    font-size:12px;
 }
