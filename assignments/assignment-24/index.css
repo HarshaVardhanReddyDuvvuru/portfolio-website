@@ -1,3 +1,6 @@
+.navbar-padding{
+    padding-left:5%;
+}
 .box{
     height:60px;
     width:60px;
@@ -7,4 +10,25 @@
 .bg{
     background:Aliceblue;
     font-size:12px;
+    border:1px solid black;
+}
+.nav-font{
+    color:white;
+}
+.topicsunderline{
+    border-bottom:2px solid dodgerblue;
+    color:black;
+}
+.img{
+    -wekit-filter:invert(100%);
+    border-radius:55%;
+}
+.topicsbg{
+    background-color:ghostwhite;
+}
+.undividedcontent{
+    display: inline-block;
+}
+.searchbutton{
+    background-color:gray;
 }
