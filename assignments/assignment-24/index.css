@@ -1,34 +1,35 @@
-.navbar-padding{
-    padding-left:5%;
+.logoImg{
+    filter:invert(100%);
+    border-radius:55%;
 }
-.box{
+
+.searchButtonBox{
+    border:1px solid gray;
+    margin-left:170px;
+}
+
+.exploreBarFont{
+    font-size:14px;
+}
+
+.topicsLinkUnderline{
+    border-bottom:2px solid dodgerblue;
+    color:black;
+}
+
+.topicsBg{
+    background-color:ghostwhite;
+}
+
+.hashBox{
     height:60px;
     width:60px;
     background-color: Aliceblue;
     padding-top:20px;
 }
-.bg{
+
+.footerLinksBg{
     background:Aliceblue;
     font-size:12px;
     border:1px solid black;
-}
-.nav-font{
-    color:white;
-}
-.topicsunderline{
-    border-bottom:2px solid dodgerblue;
-    color:black;
-}
-.img{
-    -wekit-filter:invert(100%);
-    border-radius:55%;
-}
-.topicsbg{
-    background-color:ghostwhite;
-}
-.undividedcontent{
-    display: inline-block;
-}
-.searchbutton{
-    background-color:gray;
 }

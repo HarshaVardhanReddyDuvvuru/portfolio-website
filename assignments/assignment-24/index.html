@@ -13,15 +13,14 @@
 
 <body>
   <div class="w-100 bg-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 p-0">
-        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-          
-            <img src="assets/github-logo.svg" height=30px width=30px alt="github-logo" class="bg-light mr-xl-2" style="border-radius:55%; -webkit-filter:invert(100%)">
+    <div class="container">
+      <div class="row">
+        <header class="col-12 p-0">
+          <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+            <img src="assets/github-logo.svg" height=30px width=30px alt="github-logo" class="bg-light mr-xl-2 mt-xl-n2 logoImg">
             <div>
-              <button class="btn btn-outline-light d-xl-none mr-2">Sign up</button>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="btn-sm btn-outline-light d-xl-none mr-2">Sign up</button>
+              <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             </div>
@@ -49,23 +48,25 @@
               </a>
                 </li>
                 <li>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search-github" aria-label="Search">
-                    <button class="btn btn-outline-light my-2 my-sm-0 ml-xl-2" type="submit">Sign in</button>
-                    <button class="btn btn-outline-light my-2 my-sm-0 d-none d-xl-block ml-xl-2">Sign up</button>
+                  <form class="form-inline my-lg-0">
+                    <!--<input class="form-control mr-sm-2 bg-secondary text-white" type="search" placeholder="Search-github" aria-label="Search">-->
+                    <button class="btn ml-xl-2 py-2 mr-3 bg-secondary text-white-50" type="submit">Search GitHub<span class=" searchButtonBox rounded px-2 text-white-50">/</span>
+                    <button class="btn text-white ml-sm-0 " type="submit">Sign in</button>
+                    <button class="btn btn-outline-light my-sm-0 d-none d-xl-block ml-xl-2">Sign up</button>
                   </form>
                 </li>
               </ul>
             </div>
-        </nav>
+          </nav>
+        </header>
       </div>
     </div>
   </div>
-  </div>
+
 
   <div class="container">
     <div class="row">
-      <ul class="nav col-12 d-md-none pt-2 pl-xl-2 justify-content-center">
+      <ul class="nav col-12 d-md-none pt-2 justify-content-center">
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
             <h6>Explore</h6>
@@ -73,8 +74,30 @@
         </li>
       </ul>
 
-      <div class="col-12 d-md-none">
-        <ul class="nav  pb-3 justify-content-center">
+
+      <nav class="col-12 d-md-none">
+        <ul class="nav  pb-3 justify-content-center exploreBarFont">
+          <li class="nav-item d-none d-md-block">
+            <a class=" text-secondary" href="#">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="ml-4 text-secondary topicsLinkUnderline pb-3" href="#">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="ml-4 text-secondary" href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="ml-4 text-secondary" href="#">Collections</a>
+          </li>
+          <li class="nav-item">
+            <a class="ml-4 text-secondary" href="#">Events</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <nav class="col-12 d-none d-md-block pl-0">
+        <ul class="nav pt-3 pb-3 pl-md-3 pl-lg-3 ">
           <li class="nav-item d-md-block">
             <a class=" text-secondary" href="#">Explore</a>
           </li>
@@ -91,29 +114,7 @@
             <a class="ml-4 text-secondary" href="#">Events</a>
           </li>
         </ul>
-      </div>
-
-      <div class="col-12 d-none d-md-block pl-0">
-        <ul class="nav pt-3 pb-3">
-          <li class="nav-item d-md-block">
-            <a class=" text-secondary" href="#">Explore</a>
-          </li>
-          <li class="nav-item">
-            <a class="ml-4 text-secondary topicsunderline pb-3" href="#">Topics</a>
-          </li>
-          <li class="nav-item">
-            <a class="ml-4 text-secondary" href="#">Trending</a>
-          </li>
-          <li class="nav-item">
-            <a class="ml-4 text-secondary" href="#">Collections</a>
-          </li>
-          <li class="nav-item">
-            <a class="ml-4 text-secondary" href="#">Events</a>
-          </li>
-        </ul>
-      </div>
-
-
+      </nav>
     </div>
   </div>
 
@@ -121,41 +122,41 @@
 
   <div class="container-fluid">
     <div class="row">
-      <header class="col-12  pt-5 pb-5  mb-4 text-center border topicsbg">
+      <section class="col-12  pt-5 pb-5  mb-4 text-center border-top border-bottom topicsBg">
         <h2>Topics</h2>
         <p>Browse popular topics on GitHub</p>
-      </header>
+      </section>
     </div>
   </div>
 
 
   <div class="container">
     <div class="row mb-4">
-      <div class="col-12  col-md-4 text-center p-3">
-        <div class="border h-100 p-4">
+      <div class="col-12 col-md-4 text-center p-3">
+        <section class=" border h-100 p-4">
           <img src="assets/opengl.png" width=60px height=60px alt="opengl" alt="...">
           <h5 class="card-title">Open GL</h5>
           <p class="card-text">OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
-        </div>
+        </section>
       </div>
 
 
       <div class="col-12 col-md-4 text-center p-3">
-        <div class="border h-100 p-4">
+        <section class="border h-100 p-4">
           <img src="assets/flask.png" width=60px height=60px alt="opengl" alt="...">
           <h5 class="card-title">Flask</h5>
           <p class="card-text">Flask is a web framework for python on the Werkzeug toolkit. </p>
-        </div>
+        </section>
       </div>
 
 
 
       <div class="col-12 col-md-4 text-center p-3">
-        <div class="border h-100 p-4">
+        <section class="border h-100 p-4">
           <img src="assets/gradle.png" width=60px height=60px alt="opengl" alt="...">
           <h5 class="card-title">Gradle</h5>
           <p class="card-text">Gradle is a open-source build tool that helps teams build, automate and deliver better software, faster.</p>
-        </div>
+        </section>
       </div>
     </div>
 
@@ -164,12 +165,12 @@
       <div class="col-12 col-xl-9">
         <div class="row">
           <div class="col-12">
+            <h4 class="mb-4">All featured topics</h4>
+          </div>
+          <section class="col-12">
             <div class="row">
-              <div class="col-12 mb-4">
-                <h4>All featured topics</h4>
-              </div>
               <div class="col-2 col-lg-1">
-                <div class="box text-center">#</div>
+                <div class="hashBox text-center">#</div>
               </div>
               <div class="col-10 col-lg-11">
                 <div class="row">
@@ -186,18 +187,19 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-symbol" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-symbol" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
-                <div class="box text-center">#</div>
+                <div class="hashBox text-center">#</div>
               </div>
               <div class="col-10 col-lg-11">
                 <div class="row">
@@ -214,18 +216,20 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
-                <div class="box text-center">#</div>
+                <div class="hashBox text-center">#</div>
               </div>
               <div class="col-10 col-lg-11">
                 <div class="row">
@@ -234,7 +238,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo"  > star
+                      <img src="assets/star.svg" alt="star-logo"  > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -242,15 +246,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo"> star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo"> star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/amphp.png" alt="amp-logo" height=60px width=60px>
@@ -262,7 +268,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo"> star
+                      <img src="assets/star.svg" alt="star-logo"> star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -270,15 +276,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/android.png" alt="amp-logo" height=60px width=60px>
@@ -290,7 +298,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -298,15 +306,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo"> star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo"> star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/angular.png" alt="amp-logo" height=60px width=60px>
@@ -318,7 +328,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo"> star
+                      <img src="assets/star.svg" alt="star-logo"> star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -326,15 +336,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo"> star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo"> star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/ansible.png" alt="amp-logo" height=60px width=60px>
@@ -346,7 +358,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -354,18 +366,20 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo"> star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo"> star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
-                <div class="box text-center">#</div>
+                <div class="hashBox text-center">#</div>
               </div>
               <div class="col-10 col-lg-11">
                 <div class="row">
@@ -374,7 +388,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo"> star
+                      <img src="assets/star.svg" alt="star-logo"> star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -382,15 +396,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo"> star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo"> star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/arduino.png" alt="amp-logo" height=60px width=60px>
@@ -402,7 +418,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -410,15 +426,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/aspnet.png" alt="amp-logo" height=60px width=60px>
@@ -430,7 +448,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -438,16 +456,16 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
+          </section>
 
-          <div class="col-12">
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/awesome.png" alt="amp-logo" height=60px width=60px>
@@ -459,7 +477,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -467,15 +485,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/aws.png" alt="amp-logo" height=60px width=60px>
@@ -487,7 +507,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -495,15 +515,17 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
                 <img src="assets/arduino.png" alt="amp-logo" height=60px width=60px>
@@ -515,7 +537,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -523,18 +545,20 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
-          <div class="col-12">
+          </section>
+
+
+          <section class="col-12">
             <div class="row">
               <div class="col-2 col-lg-1">
-                <div class="box text-center">#</div>
+                <div class="hashBox text-center">#</div>
               </div>
               <div class="col-10 col-lg-11">
                 <div class="row">
@@ -543,7 +567,7 @@
                   </div>
                   <div class="col-2 d-none d-md-block">
                     <button type="button" class="btn-sm btn-light border">
-                    <img src="assets/star.svg" alt="star-logo" > star
+                      <img src="assets/star.svg" alt="star-logo" > star
                     </button>
                   </div>
                   <div class="col-12 col-md-9">
@@ -551,65 +575,72 @@
                   </div>
                   <div class="col-12 d-md-none">
                     <button type="button" class="btn-sm btn-light border">
-            <img src="assets/star.svg" alt="star-logo" > star
-            </button>
+                      <img src="assets/star.svg" alt="star-logo" > star
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
             <hr>
-          </div>
+          </section>
+
+
           <a class="btn border border-secondary col-12 mb-4" href="#" role="button">Load more...</a>
+
         </div>
       </div>
 
-      <div class="col-12 d-md-none">
+      <footer class="col-12 d-md-none">
         <div class="row">
           <div class="col-12 mt-4 mb-2">
             <h6>Popular topics</h6>
           </div>
           <div class="col-12 mb-2">
-            <a class="btn-sm border bg" href="#" role="button">react</a>
-            <a class="btn-sm border bg" href="#" role="button">javascript</a>
-            <a class="btn-sm border bg" href="#" role="button">css</a>
-            <a class="btn-sm border bg" href="#" role="button">python</a>
-            <a class="btn-sm border bg" href="#" role="button">html</a>
-            <a class="btn-sm border bg" href="#" role="button">ecommerce</a>
+            <a class="btn-sm border footerLinksBg d-inline-block" href="#" role="button">react</a>
+            <a class="btn-sm border footerLinksBg d-inline-block" href="#" role="button">javascript</a>
+            <a class="btn-sm border footerLinksBg d-inline-block" href="#" role="button">css</a>
+            <a class="btn-sm border footerLinksBg d-inline-block" href="#" role="button">python</a>
+            <a class="btn-sm border footerLinksBg d-inline-block" href="#" role="button">html</a>
+            <a class="btn-sm border footerLinksBg d-inline-block" href="#" role="button">ecommerce</a>
           </div>
           <div class="col-12">
-            <a class="btn-sm border bg" href="#" role="button">python</a>
-            <a class="btn-sm border bg" href="#" role="button">ecommerce-platform</a>
-            <a class="btn-sm border bg" href="#" role="button">ncr-itcr</a>
-            <a class="btn-sm border bg" href="#" role="button">solidus-extensions</a>
+            <a class="btn-sm border footerLinksBg d-inline-block mb-2" href="#" role="button">python</a>
+            <a class="btn-sm border footerLinksBg d-inline-block mb-2" href="#" role="button">ecommerce-platform</a>
+            <a class="btn-sm border footerLinksBg d-inline-block mb-2" href="#" role="button">ncr-itcr</a>
+            <a class="btn-sm border footerLinksBg d-inline-block mb-2" href="#" role="button">solidus-extensions</a>
           </div>
         </div>
-      </div>
-      <div class="col-12 d-none d-md-block col-xl-3">
+      </footer>
+
+
+      <footer class="col-12 d-none d-md-block col-xl-3">
         <div class="row">
           <div class="col-12 mt-4 mb-2">
             <h6>Popular topics</h6>
           </div>
           <div class="col-12 mb-2">
-            <a class="btn-sm border bg " href="#" role="button">react</a>
-            <a class="btn-sm border bg " href="#" role="button">javascript</a>
-            <a class="btn-sm border bg" href="#" role="button">css</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">react</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">javascript</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">css</a>
           </div>
           <div class="col-12 mb-2">
-            <a class="btn-sm border bg " href="#" role="button">python</a>
-            <a class="btn-sm border bg " href="#" role="button">html</a>
-            <a class="btn-sm border bg" href="#" role="button">ecommerce</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">python</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">html</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">ecommerce</a>
           </div>
 
           <div class="col-12 mb-2">
-            <a class="btn-sm border bg" href="#" role="button">python</a>
-            <a class="btn-sm border bg undividedcontent" href="#" role="button">ecommerce-platform</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">python</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">ecommerce-platform</a>
           </div>
-          <div class="col-12">
-            <a class="btn-sm border bg undividedcontent" href="#" role="button">ncr-itcr</a>
-            <a class="btn-sm border bg undividedcontent" href="#" role="button">solidus-extensions</a>
+          <div class="col-12 mb-2">
+            <a class="btn-sm border footerLinksBg" href="#" role="button">ncr-itcr</a>
+            <a class="btn-sm border footerLinksBg" href="#" role="button">solidus-extensions</a>
           </div>
         </div>
-      </div>
+      </footer>
+
+
     </div>
   </div>
 
