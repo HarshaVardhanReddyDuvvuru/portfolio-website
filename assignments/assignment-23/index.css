@@ -1,19 +1,9 @@
-.font{
-    font-size:14px;
-    /*opacity:0.5;*/
-}
+
  .bg{
      background-color:#f5f6f6;
  }
- .footerLinks ul li{
-     display: inline-block;
-     margin-right:5px;
-     font-size:14px;
- }
- .footerLinks ul{
-     padding:0;
- }
- .footerLinks2{
+ 
+ .footerLinks{
      font-size:14px;
  }
  .footerTitle{
