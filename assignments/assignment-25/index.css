@@ -1,0 +1,38 @@
+.websiteTitle{
+    color:black;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.headerlinks-font{
+    font-size:14px;
+}
+
+.bgImg{
+    background-image:url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0;
+}
+.overlayBg{
+    background-color:#00000050;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+.profileImg{
+    border-radius:30%;
+}
+
+
+.profileText{
+    color:white;
+}
+
+.card1Contentcolor{
+    color:gray;
+}
+
+.footerLinks{
+    margin-right:5px;
+}
