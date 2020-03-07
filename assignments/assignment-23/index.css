@@ -5,3 +5,23 @@
  .bg{
      background-color:#f5f6f6;
  }
+ .footerLinks ul li{
+     display: inline-block;
+     margin-right:5px;
+     font-size:14px;
+ }
+ .footerLinks ul{
+     padding:0;
+ }
+ .footerLinks2{
+     font-size:14px;
+ }
+ .footerTitle{
+     font-size:22px;
+     font-weight:bold;
+     color:gray;
+ }
+
+.footerBg{
+    background-color: lightgray;
+}
