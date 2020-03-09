@@ -1,11 +1,15 @@
+
 .mainContainerBg{
     background-image:url(../../static/Backgrounds/bg4.jpg);
     background-size: cover;
+}
+
+.intro{
     padding:200px 100px;
 }
 
 .aboutText{
-    font-size:20px;
+    font-size:25px;
     color:white;
 }
 
@@ -29,6 +33,7 @@
 }
 .grayText{
     color:gray;
+    font-size:18px;
 }
 
 .skills{
