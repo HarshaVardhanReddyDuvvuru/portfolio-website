@@ -36,7 +36,7 @@
 }
 
 .myProjectsBg{
-    background-color:lightgray;
+    background-color:#f3f3f3;
 }
 
 .myProjects{
@@ -60,10 +60,37 @@
 }
 
 .hobbyBg{
-    background-color: lightgray;
+    background-color: #f3f3f3;
 }
 
 .myHobbies{
     font-size:30px;
 }
 
+.contact{
+    font-size:30px;
+}
+
+.contactDetails{
+  font-size:20px;  
+}
+
+.follow{
+    font-weight:bold;
+    color:dodgerblue;
+    font-size:25px;
+}
+
+.socialIcon{
+    height:40px;
+    width:40px;
+}
+
+.orangeBg{
+    background-color: darkorange;
+}
+
+.footerLinks{
+    font-size:20px;
+    color:white;
+}
