@@ -1,0 +1,69 @@
+.mainContainerBg{
+    background-image:url(../../static/Backgrounds/bg4.jpg);
+    background-size: cover;
+    padding:200px 100px;
+}
+
+.aboutText{
+    font-size:20px;
+    color:white;
+}
+
+.profileImg{
+    height:100px;
+    -webkit-clip-path: circle(40%);
+}
+
+.orangeUnderline{
+    border-bottom:2px solid darkorange;
+}
+
+.btnColor{
+    background-color:darkorange;
+    color:white;
+}
+
+.btnBorder{
+    border:1px solid darkorange;
+    color:darkorange;
+}
+.grayText{
+    color:gray;
+}
+
+.skills{
+    font-size:20px;
+}
+
+.myProjectsBg{
+    background-color:lightgray;
+}
+
+.myProjects{
+    font-size:30px;
+}
+
+.cardRadius{
+    border-radius:15px;
+}
+
+.orangeColor{
+    color:orange;
+}
+
+.myEducation{
+    font-size:30px;
+}
+
+.degreesColor{
+    color:white;
+}
+
+.hobbyBg{
+    background-color: lightgray;
+}
+
+.myHobbies{
+    font-size:30px;
+}
+
