@@ -1,101 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Creepster&family=Dancing+Script&family=Ewert&family=Fruktur&family=Monoton&family=Black+Ops+One&family=Bungee&display=swap');
 
-.mainContainerBg{
-    background-image:url(../../static/Backgrounds/bg4.jpg);
-    background-size: cover;
+.mainContainerBg {
+    background-image: linear-gradient(green,blue);
 }
 
-.intro{
-    padding:200px 100px;
+nav a:hover {
+  border-bottom: 2px solid dodgerblue;
 }
 
-.aboutText{
-    font-size:25px;
-    color:white;
+.intro {
+    padding: 150px 100px;
 }
 
-.profileImg{
-    height:100px;
-    -webkit-clip-path: circle(40%);
+.introText {
+    font-size: 30px;
+    font-family: 'Bungee Shade', cursive;
+    font-weight: bold;
+    color: white;
 }
 
-.orangeUnderline{
-    border-bottom:2px solid darkorange;
-}
-
-.btnColor{
-    background-color:darkorange;
-    color:white;
-}
-
-.btnBorder{
-    border:1px solid darkorange;
-    color:darkorange;
-}
-.grayText{
-    color:gray;
+.aboutMe{
+    font-family: 'Creepster';
     font-size:18px;
 }
 
-.skills{
-    font-size:20px;
+.aboutBorder {
+    border-left: 3px solid dodgerblue;
 }
 
-.myProjectsBg{
-    background-color:#f3f3f3;
+.profileImg {
+    height: 200px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+    border: 5px solid white;
 }
 
-.myProjects{
-    font-size:30px;
+.headingFont{
+    font-family: 'Black Ops One'
 }
 
-.cardRadius{
-    border-radius:15px;
+h3{
+    font-family:'Fruktur';
 }
 
-.orangeColor{
-    color:orange;
+h4{
+    font-family: 'Bungee';
 }
 
-.myEducation{
-    font-size:30px;
+h5{
+    font-family: 'Monoton';
 }
 
-.degreesColor{
-    color:white;
+.blueUnderline {
+    border-bottom: 2px solid dodgerblue;
 }
 
-.hobbyBg{
+.btnColor {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.btnBorder {
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.grayText {
+    color: gray;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.skills {
+    font-size: 20px;
+}
+
+.myProjectsBg {
     background-color: #f3f3f3;
 }
 
-.myHobbies{
-    font-size:30px;
+.pagination a {
+    color: dodgerblue;
+    float: left;
+    padding: 20px 10px;
+    font-size: 35px;
+    transition: background-color .3s;
 }
 
-.contact{
-    font-size:30px;
+.myProjects {
+    font-size: 30px;
 }
 
-.contactDetails{
-  font-size:20px;  
+.cardRadius {
+    border-radius: 15px;
 }
 
-.follow{
-    font-weight:bold;
-    color:dodgerblue;
-    font-size:25px;
+.blueColor {
+    color: dodgerblue;
 }
 
-.socialIcon{
-    height:40px;
-    width:40px;
+.myEducation {
+    font-size: 30px;
 }
 
-.orangeBg{
-    background-color: darkorange;
+.whiteColor {
+    color: white;
 }
 
-.footerLinks{
-    font-size:20px;
-    color:white;
+.hobbyBg {
+    background-color: #f3f3f3;
+}
+
+.myHobbies {
+    font-size: 30px;
+}
+
+.contact {
+    font-size: 30px;
+}
+
+.contactDetails {
+    font-size: 20px;
+}
+
+.follow {
+    font-weight: bold;
+    color: dodgerblue;
+    font-size: 25px;
+}
+
+.socialIcon {
+    height: 40px;
+    width: 40px;
+}
+
+.blueBg {
+    background-color: cadetblue;
+}
+
+.footerLinks {
+    font-size: 20px;
+    color: white;
+}
+
+.footerBg{
+    background-image: linear-gradient(navy,skyblue,royalblue,slateblue);
 }
