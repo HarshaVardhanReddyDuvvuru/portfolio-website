@@ -10,7 +10,7 @@ body{
     background-color:lightgray;
 }
 
-@media all and (max-width:767px){
+@media only all and (max-width:767px){
      .magic{
          display:none;
      }   

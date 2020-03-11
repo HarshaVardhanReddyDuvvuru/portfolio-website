@@ -18,7 +18,7 @@ h2 {
     font-size: 24px;
 }
 
-@media all and (min-width:768px) {
+@media only all and (min-width:768px) {
     section {
         width: 50%;
         font-size: 16px;
@@ -37,7 +37,7 @@ h2 {
 
 }
 
-@media all and (min-width:992px) {
+@media only all and (min-width:992px) {
     section {
         width:33.333%;
         font-size: 18px;

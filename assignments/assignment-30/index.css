@@ -16,7 +16,7 @@ p {
     border: 2px solid black;
 }
 
-@media all and (min-width:576px) {
+@media only all and (min-width:576px) {
 
     p {
         padding: 20px 10px;
@@ -31,7 +31,7 @@ p {
     }
 }
 
-@media all and (min-width:768px) {
+@media only all and (min-width:768px) {
 
     p {
         padding: 30px 10px;
@@ -43,7 +43,7 @@ p {
     }
 }
 
-@media all and (min-width:992px) {
+@media only all and (min-width:992px) {
 
     p {
         padding: 40px 0px;
@@ -56,7 +56,7 @@ p {
     }
 }
 
-@media all and (min-width:1200px) {
+@media only all and (min-width:1200px) {
 
     p {
         padding: 50px 0px;

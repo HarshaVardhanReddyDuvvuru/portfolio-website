@@ -10,7 +10,7 @@
     padding:10px;
 }
 
-@media (min-width:768px){
+@media only (min-width:768px){
      .box{
          width:50%;
      }   

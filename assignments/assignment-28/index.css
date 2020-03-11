@@ -7,7 +7,7 @@ section{
     padding:10px;
 }
 
-@media all and (min-width:768px){
+@media only all and (min-width:768px){
     .box2{
         display:none;
     }
@@ -21,7 +21,7 @@ section{
     }
 }
 
-@media not all and (min-width:768px){
+@media  not all and (min-width:768px){
     .box1{
         display:none;
     }
