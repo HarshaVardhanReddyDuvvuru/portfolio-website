@@ -9,7 +9,7 @@ body {
 }
 
 p {
-    padding: 10px 0px;
+    padding: 10px 10px;
     background-color: orange;
     margin-bottom: 10px;
     font-size: 14px;
@@ -19,7 +19,7 @@ p {
 @media all and (min-width:576px) {
 
     p {
-        padding: 20px 0px;
+        padding: 20px 10px;
         background-color: #00c8ff;
         margin-bottom: 20px;
         font-size: 16px;
@@ -34,7 +34,7 @@ p {
 @media all and (min-width:768px) {
 
     p {
-        padding: 30px 0px;
+        padding: 30px 10px;
         background-color: #246caf;
         margin-bottom: 30px;
         font-size: 18px;
