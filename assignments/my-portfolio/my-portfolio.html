@@ -56,7 +56,7 @@
       </div>
       <div class="col-12 mb-4 col-lg-6 ">
         <p class="aboutMe">
-          I really like to look professional but also have personal flare. You will never find me in head-to-toe designer.
+          I am Front-end developer and intern at iB Hubs. Presently I mastered the web development and going further steps with the help of iB Hubs.
         </p>
 
         <div class="mx-auto my-4 d-inline-block">
@@ -71,7 +71,18 @@
               <p>Email: harshavardhanreddy527@gmail.com</p>
             </div>
           </div>
-          <button class="btn btnBorder data-toggle=" popover " title="HOW YOU DOIN? " data-content="Hey I am free soul, I like to live life to the fullest. " ml-4">Know More</button>
+          
+          <div class="dropdown d-inline-block">
+            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Know more
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Favourites</a>
+              <a class="dropdown-item" href="#">Goals</a>
+              <a class="dropdown-item" href="#">Intrests</a>
+            </div>
+          </div>
+          
         </div>
 
       </div>
@@ -116,58 +127,62 @@
 
   <section class="myProjectsBg w-100">
     <div class="container">
-      <div class="row mb-4">
+      <div class="row mb-5">
         <div class="col-10 mt-4 mb-4">
           <p id=myprojects class="myProjects headingFont">My <b>Proje<span class="blueUnderline">cts</span></b></p>
         </div>
 
-        <div class="pagination col-2">
-          <a href="#card2">❮</a>
-          <a href="#card3">❯</a>
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Harsha The Robot">Harsha The Robot</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="Find My Things">Find My Things</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Web Pages">Web Pages</a>
+          </div>
         </div>
-
-
-        <div class="p-2 col-12 col-lg-4 mb-5 ">
-          <div class="shadow p-5 bg-white cardRadius h-100">
-            <h3 class="blueColor ">The Robot</h3>
-
-            <button type="button" class="btn btn-info my-2" data-toggle="modal" data-target=".bd-example-modal-sm">Specifications</button>
-            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-sm" role="document">
-                <div class="modal-content p-4">
-                  <b>Memory:</b> Unlimited<br>
-                  <b>Speed:</b> Catch Me If You Can
+        <div class="col-8 mb-5">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <div class="shadow p-5 bg-white cardRadius h-100 ">
+                <h3 class="blueColor ">Harsha The Robot</h3>
+                <button type="button" class="btn btn-info my-2" data-toggle="modal" data-target=".bd-example-modal-sm">Specifications</button>
+                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content p-4">
+                      <b>Memory:</b> Unlimited<br>
+                      <b>Speed:</b> Catch Me If You Can
+                    </div>
+                  </div>
                 </div>
+
+                <p class="grayText mb-3">
+                  This is humaniod Robot from the future it more powerful than all the Superhero powers Combined.
+                </p>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <div class="shadow p-5 bg-white cardRadius h-100" id="card2">
+                <h3 class="blueColor">FMT</h3>
+                <h5>Easy way to find things</h5>
+                <p class="grayText">
+                  Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
+                </p>
               </div>
             </div>
-
-            <p class="grayText mb-3">
-              This is humaniod Robot from the future it more powerful than all the Superhero powers Combined.
-            </p>
-          </div>
-
-        </div>
-
-        <div class="p-2 col-12 col-lg-4 mb-5">
-          <div class="shadow p-5 bg-white cardRadius h-100" id="card2">
-            <h3 class="blueColor">FMT</h3>
-            <h5>Easy way to find things</h5>
-            <p class="grayText">
-              Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
-            </p>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
+                <h3 class="blueColor mb-2">Web Pages</h3>
+                <h5>For the needy</h5>
+                <p class="grayText">
+                  I created some web pages solve some day-day problems easily for the lot of people who are there.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
 
-        <div class="p-2 col-12 col-lg-4 mb-5">
-          <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
-            <h3 class="blueColor mb-2">Aparchit</h3>
-            <h5>The People Cleaner</h5>
-            <p class="grayText">
-              Aparchit is a machine which will clense the people and teach'em a story if they commit sins by willingly.
-            </p>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
@@ -177,11 +192,6 @@
     <div class="row mb-4">
       <div class="col-10 mb-4 mt-4">
         <p class="myEducation headingFont">My <b>Educ<span class="blueUnderline">tion</span></b></p>
-      </div>
-
-      <div class="pagination col-2">
-        <a href="#card2.0">❮</a>
-        <a href="#card3.0">❯</a>
       </div>
 
       <div class="col-12 col-lg-4 blueBg whiteColor text-center py-4 mb-4">

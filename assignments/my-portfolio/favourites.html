@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="../../bootstrap/bootstrap.min.css" />
+  <script src="../../bootstrap/jquery.min.js"></script>
+  <script src="../../bootstrap/popper.min.js"></script>
+  <script src="../../bootstrap/bootstrap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Creepster&family=Dancing+Script&family=Ewert&family=Fruktur&family=Monoton&family=Black+Ops+One&family=Bungee&display=swap');
+    .fav{
+      font-size:30px;
+      font-weight:bold;
+      font-family:'Black Ops One';
+      color:blue;
+    }
+    
+    .heading{
+        font-family:'Bungee';
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mt-2">
+        <h1 class="text-info heading">All My Favourites</h1>
+      </div>
+      
+      <div class="col-4 mt-4 ">
+        <div class="list-group text-center" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Movie">Movie</a>
+          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="actor">Actor</a>
+          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Tv Series">Tv Series</a>
+          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-dish" role="tab" aria-controls="Dish">Dish</a>
+          <a class="list-group-item list-group-item-action" id="list--list" data-toggle="list" href="#list-dish" role="tab" aria-controls="Dish">Dish</a>
+        
+        </div>
+      </div>
+      <div class="col-8 mb-5">
+        <div class="tab-content mt-5" id="nav-tabContent">
+          <div class="tab-pane fade  pt-5" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+            <p class="fav">KGF</p>
+          </div>
+          <div class="tab-pane fade pt-5" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+            <p class="fav">Sharukh Khan</p>
+          </div>
+          
+          <div class="tab-pane fade pt-5" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+            <p class="fav">F.R.I.E.N.D.S</p>
+          </div>
+          
+          <div class="tab-pane fade pt-5" id="list-dish" role="tabpanel" aria-labelledby="list-dish-list">
+            <p class="fav">Roast Biriyani</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+
+</html>

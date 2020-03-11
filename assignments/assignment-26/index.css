@@ -1,0 +1,17 @@
+body{
+    padding:10px;
+}
+.heading{
+    font-size:30px;
+    font-weight:500;
+}
+
+.magic{
+    background-color:lightgray;
+}
+
+@media all and (max-width:767px){
+     .magic{
+         display:none;
+     }   
+}
