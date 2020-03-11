@@ -1,0 +1,28 @@
+.heading{
+    text-align: center;
+}
+
+section{
+    box-sizing: border-box;
+    padding:10px;
+}
+
+@media all and (min-width:768px){
+    .box2{
+        display:none;
+    }
+    .box1{
+        width:50%;
+        display:inline-block;
+    }
+    .box3{
+        width:50%;
+        display: inline-block;
+    }
+}
+
+@media not all and (min-width:768px){
+    .box1{
+        display:none;
+    }
+}
