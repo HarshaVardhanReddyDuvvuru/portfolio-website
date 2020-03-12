@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Creepster&family=Dancing+Script&family=Ewert&family=Fruktur&family=Monoton&family=Black+Ops+One&family=Bungee&display=swap');
 
 .mainContainerBg {
-    background-image: linear-gradient(green,blue);
+    /*background-image: linear-gradient(green,blue);*/
+    background-image: url(../../background-blur-clean-clear-531880.jpg)
 }
 
 nav a:hover {
@@ -144,5 +145,5 @@ h5{
 }
 
 .footerBg{
-    background-image: linear-gradient(navy,skyblue,royalblue,slateblue);
+    background-image: linear-gradient(green,blue);
 }
