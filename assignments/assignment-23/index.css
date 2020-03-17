@@ -1,28 +1,48 @@
+.bg {
+    background-color: #f5f6f6;
+}
 
- .bg{
-     background-color:#f5f6f6;
- }
- 
- .gmailFont{
-     font-size: 26px;
-     color:#5f6368;
-     vertical-align: middle;
- }
- 
-.getGmail{
+.headerLinksFont{
+    font-size:15px;
+}
+
+.gmailFont {
+    font-size: 26px;
+    color: #5f6368;
+    vertical-align: middle;
+}
+
+.getGmail {
     font-weight: 400
 }
- 
- 
- .footerLinks{
-     font-size:14px;
- }
- .footerTitle{
-     font-size:22px;
-     font-weight:bold;
-     color:gray;
- }
 
-.footerBg{
+.marginPolicy {
+    margin-right: 5%;
+}
+
+.dropMargin {
+    margin-left: 5%;
+}
+
+@media only all and (min-width:1220px) {
+    .marginPolicy {
+        margin-right: 15%;
+    }
+    .dropMargin {
+        margin-left: 10%;
+    }
+}
+
+.footerLinks {
+    font-size: 14px;
+}
+
+.footerTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: gray;
+}
+
+.footerBg {
     background-color: lightgray;
 }
