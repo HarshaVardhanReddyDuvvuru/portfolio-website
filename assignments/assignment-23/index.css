@@ -3,6 +3,17 @@
      background-color:#f5f6f6;
  }
  
+ .gmailFont{
+     font-size: 26px;
+     color:#5f6368;
+     vertical-align: middle;
+ }
+ 
+.getGmail{
+    font-weight: 400
+}
+ 
+ 
  .footerLinks{
      font-size:14px;
  }
