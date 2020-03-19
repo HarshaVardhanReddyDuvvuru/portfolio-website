@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Creepster&family=Dancing+Script&family=Ewert&family=Fruktur&family=Monoton&family=Black+Ops+One&family=Bungee&family=monsterrat:wght@600&display=swap');
+
+.mainContainerBg {
+    background-image: url(background-blur-clean-clear-531880.jpg);
+    background-size: cover;
+}
+
+@media only all and (min-width:1024px) {
+
+    .mainContainerBg {
+        background-image: url(mac.jpg);
+        background-size: cover;
+    }
+}
+
+
+.nameStyles {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid dodgerblue;
+}
+
+.intro {
+    padding: 200px 100px;
+}
+
+.introText {
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    color: white;
+}
+
+h2 {
+    color: #173b6c;
+}
+
+.aboutMe {
+    font-family: 'sans-serif';
+    font-size: 18px;
+}
+
+.aboutBorder {
+    border-left: 3px solid dodgerblue;
+}
+
+.profileImg {
+    height: 200px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+h3 {
+    font-family: 'monsterrat';
+    font-weight: 700;
+}
+
+.blueUnderline {
+    border-bottom: 2px solid dodgerblue;
+}
+
+.btnColor {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.btnBorder {
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.grayText {
+    color: gray;
+    font-size: 18px;
+}
+
+.skills {
+    font-size: 20px;
+}
+
+.myProjectsBg {
+    background-color: #f3f3f3;
+}
+
+.pagination a {
+    color: dodgerblue;
+    float: left;
+    padding: 20px 10px;
+    font-size: 35px;
+    transition: background-color .3s;
+}
+
+.myProjects {
+    font-size: 30px;
+}
+
+.cardRadius {
+    border-radius: 15px;
+}
+
+.blueColor {
+    color: dodgerblue;
+}
+
+.myEducation {
+    font-size: 30px;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.hobbyBg {
+    background-color: #f3f3f3;
+}
+
+.myHobbies {
+    font-size: 30px;
+}
+
+.contact {
+    font-size: 30px;
+}
+
+.contactDetails {
+    font-size: 20px;
+}
+
+.follow {
+    font-weight: bold;
+    color: dodgerblue;
+    font-size: 25px;
+}
+
+.socialIcon {
+    height: 40px;
+    width: 40px;
+}
+
+.blueBg {
+    background-color: dodgerblue;
+}
+
+.footerLinks {
+    font-size: 20px;
+    color: white;
+}
+
+.footerBg {
+    background-color: dodgerblue;
+}
+
+.logoImg{
+    filter:invert(100%);
+}

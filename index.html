@@ -1,48 +1,325 @@
-<!doctype html>
-<HTML>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-       <meta charset="utf-8">  
-       <title> Harsha Vardhan </title>
-    </head>
-    <body>
-        <a href="../id.html">Resume Page</a>
-        <div>
-             <img style="border:1px solid blue;background-color:skyblue"
-              src="static/ibhubs_logo.png"
-              alt="iB Hubs logo"
-              height=100;
-              width=100;>
-              <img 
-              src="static/Hobbies/music-player/music-player.png"
-              alt="iB Hubs logo">hi
-         </div>
-         <hr>
-      <div>
-       <h1 style="border:6px dotted blue;"> Details </h1> 
-       <h2> Harsha </h2>
-            <h3>Age 19 </h3>
-            <p style="text-align:left"> I'm tech enthusiast. I always like to learn new things, currently I'm an intern at iB Hubs and I am from Rgukt RK Valley and I am from nellore district. </p>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>   
+
+  <div class="container-fluid mainContainerBg">
+    <div class="row">
+      <div class="col-12  p-0">
+        <nav class="navbar navbar-expand-lg navbar-light py-2 ">
+          <a class="navbar-brand border-bottom text-light nameStyles" href="#">Harsha Duvvuru</a>
+          <button class="navbar-toggler border-0 text-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+              <li class="nav-item active d-inline-block">
+                <a class="nav-link text-white" href="#myprojects">Work</a>
+              </li>
+              <li class="nav-item active d-inline-block">
+                <a class="nav-link text-white" href="#aboutlink">About</a>
+              </li>
+              <li class="nav-item active d-inline-block">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <hr>
-       <div>
-            <ol type='i' style="border:6px dotted blue;background-color:skyblue">
-                <li>playing cricket</li>
-                <li>singing</li>
-                <li>Reading Books</li>
-            </ol>
-         </div>
-         <div>
-             <ul style="border-width:6px;
-             border-style:double; border-color:blue; background-color:skyblue">
-                 <li>Responsive Web Design</li>
-                 <ul>
-                   <li>Html</li>
-                   <li>Css</li>
-                   <li>Bootstrap</li>
-             </ul>
-             </ul>
-         </div>
-         
-    </body>
-</HTML>
+    </div>
+    
+    <div class="row intro">
+      <div class="col-12 text-center mb-4">
+        <img src="id.jpg" alt="Profile-photo" class="profileImg">
+      </div>
+
+      <div class="col-12 text-center">
+        <p class="introText">I'm a Web Develpoer</p>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="container">
+
+    <div class="row py-5">
+      <div class="col-12 mb-4">
+        <h2 class="about" id="aboutlink">About <span class="blueUnderline headingFont"><b>Me</b></span></h2>
+      </div>
+      <div class="col-12 mb-4 col-lg-6 ">
+        <p class="aboutMe">
+          I am Front-end developer and intern at iB Hubs. Presently I mastered the web development and going further steps with the help of iB Hubs.
+        </p>
+
+        <div class="mx-auto my-4 d-inline-block">
+          <p class="d-inline-block">
+            <a class="btn btn-primary" data-toggle="collapse" href="#contact" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Contact Me
+            </a>
+          </p>
+          <div class="collapse" id="contact">
+            <div class="card card-body">
+              <p>Phone No: +91-9999999999</p>
+              <p>Email: harshavardhanreddy527@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="dropdown d-inline-block">
+            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Know more
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="favourites.html">Favourites</a>
+              <a class="dropdown-item" href="goals.html">Goals</a>
+              <a class="dropdown-item" href="intrests.html">Intrests</a>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <div class="col-12 mb-5 col-lg-6 aboutBorder">
+        <p class="grayText mb-4 mt-4">Hi there! This is Harsha Duvvuru I am web developer, Tech enthusiast, Entreprenur.
+        </p>
+      </div>
+
+      <div class="col-12 col-lg-2 mt-3">
+        <h2 class="headingFont">Skills</h2>
+      </div>
+      <div class="col-lg-10 col-12">
+        <div class="row">
+          <div class="col-6 mb-4 col-lg-4">
+            <img src="static/Skills/HTML Icon/html(1)@3x.png" alt="Html-icon" class="mr-2" height=60px>
+            <span class="skills">HTML</span>
+          </div>
+          <div class="col-6 mb-4 col-lg-4">
+            <img src="static/Skills/CSS Icon/css(1)@3x.png" alt="CSS-icon" class="mr-2" height=60px>
+            <span class="skills">CSS</span>
+          </div>
+          <div class="col-6 mb-4 col-lg-4 ">
+            <img src="static/Skills/C Language Icon/css@3x.png" alt="C Programming-icon" class="ml-1 mr-2" height=60px>
+            <span class="skills">C Language</span>
+          </div>
+
+          <div class="col-6 mb-4 col-lg-4">
+            <img src="boot.png" alt="Bootstrap Icon" height=60px class="mr-2">
+            <span class="skills">Bootstrap</span>
+          </div>
+
+          <div class="col-6 mb-4 col-lg-4">
+            <img src="assignments/assignment-24/assets/arduino.png" alt="Arduino Icon" height=60px class="mr-2">
+            <span class="skills">Arduino</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="myProjectsBg w-100">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-10 mt-4 mb-4">
+          <h2 id=myprojects class="myProjects headingFont">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
+        </div>
+
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Stack Overflow Tag Count Scraper">Harsha The Robot</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="Gmail Home Page">Gmail Home Page</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Git Hub Home Page">Git Hub Home Page</a>
+            <a class="list-group-item list-group-item-action" id="list-fmt-list" data-toggle="list" href="#list-fmt" role="tab" aria-controls="Find My Things">Find My Things</a>
+          </div>
+        </div>
+        
+        <div class="col-8 mb-5">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <div class="shadow p-5 bg-white cardRadius h-100 ">
+                <h3 class="blueColor ">Stack Overflow Tag Count Scraper</h3>
+                <p class="grayText mb-3">
+                  I extracted 1000 tags html raw data from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data. I then applied Some Cleaning process to the data to bring remove unwanted things. 
+                  Then by using the matplotlib library I analyzed the data using graphs.
+                </p>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <div class="shadow p-5 bg-white cardRadius h-100" id="card2">
+                <h3 class="blueColor">Gmail Web Home Page</h3>
+                <p class="grayText">
+                     I created some web pages solve some day-day problems easily for the lot of people who are there.
+                </p>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
+                <h3 class="blueColor mb-2">Git Hub Home Page</h3>
+                <p class="grayText">
+                  I created some web pages solve some day-day problems easily for the lot of people who are there.
+                </p>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade" id="list-fmt" role="tabpanel" aria-labelledby="list-fmt-list">
+              <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
+                <h3 class="blueColor mb-2">Find My Things</h3>
+                <p class="grayText">
+                    Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-10 mb-4 mt-4">
+        <h2 class="myEducation headingFont">My <b>Educ<span class="blueUnderline">tion</span></b></h2>
+      </div>
+
+      <div class="col-12 col-lg-4 blueBg whiteColor text-center py-4 mb-4">
+        <h4 class="mt-4">2017-2021</h4>
+        <h3>Bachelor's Degree</h3>
+      </div>
+
+      <div class="col-12 p-4 col-lg-8 mb-4">
+        <h4>Electronics Engineering</h4>
+        <h5>IIIT RK Valley</h5>
+        <p class="grayText">
+          I used to play a lot of cricket and I enjoyed some of the best moments in my life.
+        </p>
+        <p>
+        </p>
+      </div>
+
+      <div class="col-12 col-lg-4 blueBg whiteColor text-center py-4 mb-4" id="card2.0">
+        <h4 class="mt-4">2015-2017</h4>
+        <h3>Pre-University Course</h3>
+      </div>
+      <div class="col-12 p-4 col-lg-8 mb-4">
+        <h4>MPC</h4>
+        <h5>IIIT RK Valley</h5>
+        <p class="grayText">
+          I was very ambitiuos at that time to do something miracles on my own.
+        </p>
+        <p>
+        </p>
+      </div>
+
+
+      <div class="col-12 blueBg whiteColor text-center py-4 col-lg-4 mb-4 id=" card3.0 "">
+        <h4 class="mt-4">2014-2015</h4>
+        <h3>Secondary Schooling</h3>
+      </div>
+      <div class="col-12 p-4 col-lg-8 mb-4">
+        <h4>SSC</h4>
+        <h5>Dachur</h5>
+        <p class="grayText"> It is the one of the best moments of my life , I used to play cricket everyday, do what I love.
+        </p>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <!--MY hobbies-->
+  <div class="hobbyBg w-100">
+    <section class="container  mb-5 pt-3 pb-5 ">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="myHobbies headingFont">My <b>Hobb<span class="blueUnderline">ies</span></b></h2>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <img src="static/Hobbies/travelling/Group 350.png" height=50px width=50px alt="Travelling">
+          <span class="ml-4">Travelling</span>
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <img src="static/Hobbies/music-player/music-player.png" height=50px width=50px alt="Music">
+          <span class="ml-4">Music</span>
+
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <img src="static/Hobbies/swimming/swimming.png" height=50px width=50px alt="Swimmming">
+          <span class="ml-4">Swimmming</span>
+
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+          <img src="static/Hobbies/open-book/open-book.png" height=50px width=50px alt="Book">
+          <span class="ml-4">Book Reading</span>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <img src="static/Hobbies/cricket-player/cricket-player.png" height=50px width=50px alt="Cricket">
+          <span class="ml-4">Cricket</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 contactCard col-lg-6">
+        <h2 id="contact" class="contact headingFont">Con<span class="blueUnderline">tact</span></h2>
+        <p class="contactDetails">Harsha Duvvuru</p>
+        <p class=""><b>+91-9491141031</b></p>
+        <p class="mail"><i>harshavardhanreddy527@gmail.com</i></p>
+      </div>
+      <div class="col-12 socialMedia Card col-lg-6 text-center mt-5">
+        <h5 class="follow mb-4">Follow Me On</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item mr-3"><a href="https://www.facebook.com/harshavardhan.duvvuru"><img class="socialIcon" src="static/Social Icons/facebook.svg" alt="Facebook"></a></li>
+          <li class="list-inline-item mr-3"><img class="socialIcon" src="static/Social Icons/linkedin.svg" alt="Linkedin"></li>
+          <li class="list-inline-item mr-3"><img class="socialIcon" src="static/Social Icons/pinterest.svg" alt="Pinterst"></li>
+          <li class="list-inline-item mr-3"><a href="https://www.instagram.com/duvvuruharshavardhan/"><img class="socialIcon" src="static/Social Icons/instagram.svg" alt="Instagram"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footerBg w-100 mt-4">
+    <div class="conatiner">
+      <div class="row">
+        <div class="col-6 d-none d-lg-block">
+          <ul class="list-inline footerLinks mt-5">
+            <li class="list-inline-item"><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png" class="logoImg"/></li>
+            <li class="list-inline-item"><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter-circled.png" class="logoImg"/></li>
+            <li class="list-inline-item"><img src="https://img.icons8.com/metro/26/000000/pinterest.png" class="logoImg"/></li>
+            <li class="list-inline-item"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled.png" class="logoImg"/></li>
+          
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 p-5">
+          <ul class="list-inline footerLinks text-center mb-5">
+            <li class="list-inline-item">Work</li>
+            <li class="list-inline-item">About</li>
+            <li class="list-inline-item">Contact</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
