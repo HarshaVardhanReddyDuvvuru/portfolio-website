@@ -1,6 +1,7 @@
 Hello world, This is Harsha Vardhan
 This is my first website.
 
+hi
 <git commands>
  cd portfolio-website/
 git status
