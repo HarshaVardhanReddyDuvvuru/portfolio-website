@@ -1,0 +1,58 @@
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.headerLinks{
+     color: black;
+     opacity: 0.5;
+}
+
+.logoImg{
+     background-color:orange;
+     border-radius: 50%;
+     padding:6px;
+}
+
+.comapnyServiceSection{
+    margin-top:100px;
+}
+
+.deliverySection{
+    margin-bottom:60px;
+}
+
+.blockBg{
+    background-color: Aliceblue;
+}
+
+.orangeColorButton{
+    background-color: orange;
+    color:white;
+}
+
+
+.orangeColorLine{
+    height:2px;
+    width:40px;
+    background-color: orange;
+    margin-bottom: 40px;
+}
+
+.contactBg{
+    padding:15px;
+    background-color: white;
+    border-radius:50%;
+}
+
+.profileImg{
+    border-radius: 10px;
+}
+
+.testimonialSection{
+    margin-bottom: 100px;
+}
+
+.opacity{
+    opacity: 0.5
+}

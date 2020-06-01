@@ -11,18 +11,18 @@
   <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 
-<body>   
+<body>
 
   <div class="container-fluid mainContainerBg">
     <div class="row">
       <div class="col-12  p-0">
-        <nav class="navbar navbar-expand-lg navbar-light py-2 ">
-          <a class="navbar-brand border-bottom text-light nameStyles" href="#">Harsha Duvvuru</a>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top py-2 ">
+          <a class="navbar-brand border-bottom text-light nameStyles ml-3" href="#">Harsha Duvvuru</a>
           <button class="navbar-toggler border-0 text-primary" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse ml-3" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
               <li class="nav-item active d-inline-block">
                 <a class="nav-link text-white" href="#myprojects">Work</a>
@@ -31,14 +31,14 @@
                 <a class="nav-link text-white" href="#aboutlink">About</a>
               </li>
               <li class="nav-item active d-inline-block">
-                <a class="nav-link text-white" href="#contact">Contact</a>
+                <a class="nav-link text-white" href="#contact-link">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </div>
-    
+
     <div class="row intro">
       <div class="col-12 text-center mb-4">
         <img src="id.jpg" alt="Profile-photo" class="profileImg">
@@ -50,7 +50,7 @@
     </div>
 
   </div>
-  
+
   <div class="container">
 
     <div class="row py-5">
@@ -74,7 +74,7 @@
               <p>Email: harshavardhanreddy527@gmail.com</p>
             </div>
           </div>
-          
+
           <div class="dropdown d-inline-block">
             <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Know more
@@ -85,7 +85,7 @@
               <a class="dropdown-item" href="intrests.html">Intrests</a>
             </div>
           </div>
-          
+
         </div>
 
       </div>
@@ -135,7 +135,7 @@
           <h2 id=myprojects class="myProjects headingFont">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 d-none d-lg-block">
           <div class="list-group" id="list-tab" role="tablist">
             <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Stack Overflow Tag Count Scraper">Harsha The Robot</a>
             <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="Gmail Home Page">Gmail Home Page</a>
@@ -143,15 +143,14 @@
             <a class="list-group-item list-group-item-action" id="list-fmt-list" data-toggle="list" href="#list-fmt" role="tab" aria-controls="Find My Things">Find My Things</a>
           </div>
         </div>
-        
-        <div class="col-8 mb-5">
+
+        <div class="col-8 mb-5 d-none d-lg-block">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
               <div class="shadow p-5 bg-white cardRadius h-100 ">
                 <h3 class="blueColor ">Stack Overflow Tag Count Scraper</h3>
                 <p class="grayText mb-3">
-                  I extracted 1000 tags html raw data from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data. I then applied Some Cleaning process to the data to bring remove unwanted things. 
-                  Then by using the matplotlib library I analyzed the data using graphs.
+                  I extracted 1000 information from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data and  matplotlib library I analyzed the data using graphs.
                 </p>
               </div>
 
@@ -160,32 +159,75 @@
               <div class="shadow p-5 bg-white cardRadius h-100" id="card2">
                 <h3 class="blueColor">Gmail Web Home Page</h3>
                 <p class="grayText">
-                     I created some web pages solve some day-day problems easily for the lot of people who are there.
+                  I had developed UI rich responsive web page same as Gmail’s main page using HTML5, CSS3, and Bootstrap4.
                 </p>
               </div>
             </div>
-            
+
             <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
               <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
                 <h3 class="blueColor mb-2">Git Hub Home Page</h3>
                 <p class="grayText">
-                  I created some web pages solve some day-day problems easily for the lot of people who are there.
+                  I had developed UI rich responsive web page same as Github Collections page using HTML5, CSS3, and Bootstrap4.
                 </p>
               </div>
             </div>
-            
+
             <div class="tab-pane fade" id="list-fmt" role="tabpanel" aria-labelledby="list-fmt-list">
               <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
                 <h3 class="blueColor mb-2">Find My Things</h3>
                 <p class="grayText">
-                    Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
+                  Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
                 </p>
               </div>
             </div>
-            
+
           </div>
         </div>
 
+        <div class="col-12 col-md-6 d-lg-none mb-4">
+          <div class="card  h-100 cardRadius shadow">
+            <div class="card-body">
+              <h3 class="blueColor ">Stack Overflow Tag Count Scraper</h3>
+              <p class="grayText mb-3">
+                I extracted 1000 information from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data and  matplotlib library I analyzed the data using graphs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 d-lg-none mb-4">
+          <div class="card  h-100  cardRadius shadow">
+            <div class="card-body">
+              <h3 class="blueColor">Gmail Web Home Page</h3>
+              <p class="grayText">
+                I had developed UI rich responsive web page same as Gmail’s main page using HTML5, CSS3, and Bootstrap4.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 d-lg-none mb-4">
+          <div class="card h-100  cardRadius shadow">
+            <div class="card-body">
+              <h3 class="blueColor mb-2">Git Hub Home Page</h3>
+              <p class="grayText">
+                I had developed UI rich responsive web page same as Github Collections page using HTML5, CSS3, and Bootstrap4.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 d-lg-none mb-4">
+          <div class="card h-100  cardRadius shadow">
+            <div class="card-body">
+              <h3 class="blueColor mb-2">Find My Things</h3>
+              <p class="grayText">
+                Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
+              </p>
+            </div>
+          </div>
+        </div>
 
 
       </div>
@@ -242,13 +284,13 @@
       </div>
     </div>
   </div>
-  
+
   <!--MY hobbies-->
   <div class="hobbyBg w-100">
     <section class="container  mb-5 pt-3 pb-5 ">
       <div class="row">
         <div class="col-12">
-          <h2 class="myHobbies headingFont">My <b>Hobb<span class="blueUnderline">ies</span></b></h2>
+          <h2 class="myHobbies headingFont mt-3">My <b>Hobb<span class="blueUnderline">ies</span></b></h2>
         </div>
         <div class="col-12 col-lg-4 mb-4">
           <img src="static/Hobbies/travelling/Group 350.png" height=50px width=50px alt="Travelling">
@@ -279,19 +321,19 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 contactCard col-lg-6">
-        <h2 id="contact" class="contact headingFont">Con<span class="blueUnderline">tact</span></h2>
+      <div class="col-12 contactCard col-lg-6 mb-4">
+        <h2 id="contact-link" class="contact headingFont">Con<span class="blueUnderline">tact</span></h2>
         <p class="contactDetails">Harsha Duvvuru</p>
         <p class=""><b>+91-9491141031</b></p>
         <p class="mail"><i>harshavardhanreddy527@gmail.com</i></p>
       </div>
-      <div class="col-12 socialMedia Card col-lg-6 text-center mt-5">
+      <div class="col-12 socialMedia Card col-lg-6  mt-5 mb-4">
         <h5 class="follow mb-4">Follow Me On</h5>
         <ul class="list-inline">
-          <li class="list-inline-item mr-3"><a href="https://www.facebook.com/harshavardhan.duvvuru"><img class="socialIcon" src="static/Social Icons/facebook.svg" alt="Facebook"></a></li>
-          <li class="list-inline-item mr-3"><img class="socialIcon" src="static/Social Icons/linkedin.svg" alt="Linkedin"></li>
-          <li class="list-inline-item mr-3"><img class="socialIcon" src="static/Social Icons/pinterest.svg" alt="Pinterst"></li>
-          <li class="list-inline-item mr-3"><a href="https://www.instagram.com/duvvuruharshavardhan/"><img class="socialIcon" src="static/Social Icons/instagram.svg" alt="Instagram"></a></li>
+          <li class="list-inline-item mr-5"><a href="https://www.facebook.com/harshavardhan.duvvuru"><img class="socialIcon" src="static/Social Icons/facebook.svg" alt="Facebook"></a></li>
+          <li class="list-inline-item mr-5"><img class="socialIcon" src="static/Social Icons/linkedin.svg" alt="Linkedin"></li>
+          <li class="list-inline-item mr-5"><img class="socialIcon" src="static/Social Icons/pinterest.svg" alt="Pinterst"></li>
+          <li class="list-inline-item "><a href="https://www.instagram.com/duvvuruharshavardhan/"><img class="socialIcon" src="static/Social Icons/instagram.svg" alt="Instagram"></a></li>
         </ul>
       </div>
     </div>
@@ -300,17 +342,17 @@
   <footer class="footerBg w-100 mt-4">
     <div class="conatiner">
       <div class="row">
-        <div class="col-6 d-none d-lg-block">
-          <ul class="list-inline footerLinks mt-5">
-            <li class="list-inline-item"><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png" class="logoImg"/></li>
-            <li class="list-inline-item"><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter-circled.png" class="logoImg"/></li>
-            <li class="list-inline-item"><img src="https://img.icons8.com/metro/26/000000/pinterest.png" class="logoImg"/></li>
-            <li class="list-inline-item"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled.png" class="logoImg"/></li>
-          
+        <div class="col-lg-6 d-none d-lg-block">
+          <ul class="list-inline footerIcons mt-5">
+            <li class="list-inline-item"><a><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png" class="logoImg"/></a></li>
+            <li class="list-inline-item"><a><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter-circled.png" class="logoImg"/></a></li>
+            <li class="list-inline-item"><a><img src="https://img.icons8.com/metro/26/000000/pinterest.png" class="logoImg"/></a></li>
+            <li class="list-inline-item"><a><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled.png" class="logoImg"/></a></li>
+
           </ul>
         </div>
         <div class="col-12 col-lg-6 p-5">
-          <ul class="list-inline footerLinks text-center mb-5">
+          <ul class="list-inline footerLinks mb-5">
             <li class="list-inline-item">Work</li>
             <li class="list-inline-item">About</li>
             <li class="list-inline-item">Contact</li>

@@ -11,6 +11,12 @@
         background-image: url(mac.jpg);
         background-size: cover;
     }
+
+
+}
+
+body{
+    margin:0;
 }
 
 
@@ -20,7 +26,8 @@
 }
 
 nav a:hover {
-    border-bottom: 2px solid dodgerblue;
+    border-bottom: 2px solid white;
+    width:70px;
 }
 
 .intro {
@@ -83,6 +90,7 @@ h3 {
 
 .myProjectsBg {
     background-color: #f3f3f3;
+    padding-bottom: 50px;
 }
 
 .pagination a {
@@ -102,7 +110,7 @@ h3 {
 }
 
 .blueColor {
-    color: dodgerblue;
+    color:#3b5998;
 }
 
 .myEducation {
@@ -132,7 +140,8 @@ h3 {
 .follow {
     font-weight: bold;
     color: dodgerblue;
-    font-size: 25px;
+    font-size: 22px;
+    margin-left:90px;
 }
 
 .socialIcon {
@@ -141,19 +150,38 @@ h3 {
 }
 
 .blueBg {
-    background-color: dodgerblue;
+    background-color:#4682b4;
 }
 
-.footerLinks {
-    font-size: 20px;
-    color: white;
-}
 
 .footerBg {
-    background-color: dodgerblue;
+    background-color:#2d3a51;
 }
 
 .logoImg{
     filter:invert(100%);
     color:white;
+}
+
+.footerLinks {
+    font-size: 20px;
+    color: white;
+    text-align:center;
+}
+
+@media only all and (min-width:1024px) {
+
+    .footerLinks{
+        text-align:right;
+        margin-right:10%
+    }
+
+}
+
+.footerIcons{
+        margin-left:10%
+}
+
+.footerIcons a:hover{
+    background-color: #424e62;
 }
