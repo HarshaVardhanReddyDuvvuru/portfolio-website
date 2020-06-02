@@ -1,0 +1,50 @@
+.logoContainer{
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left:-4px;
+    box-sizing: border-box;
+    padding-left:10px;
+}
+
+.logoImg{
+     background-color:orange;
+     border-radius: 50%;
+     padding:6px;
+     margin-right:5px;
+}
+
+.logoHeading{
+    display: inline-block;
+}
+
+.navigationLinks{
+    display: inline-block;
+    width:100%;
+    text-align:center;
+    margin-top: 15px;
+    margin-left:-4px;
+}
+
+@media only all and (min-width:768px){
+    .logoContainer{
+        width:25%;
+        text-align: left;
+    }
+    
+    .navigationLinks{
+        width:75%;
+        text-align:right;
+    }
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.headerLinks{
+     color: black;
+     opacity: 0.5;
+}
