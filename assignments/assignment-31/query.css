@@ -1,50 +1,156 @@
-.logoContainer{
-    width:100%;
+.logoContainer {
+    width: 100%;
     text-align: center;
     display: inline-block;
-    margin-top: 15px;
-    margin-left:-4px;
+    margin-top: 20px;
     box-sizing: border-box;
-    padding-left:10px;
 }
 
-.logoImg{
-     background-color:orange;
-     border-radius: 50%;
-     padding:6px;
-     margin-right:5px;
+.logoImg {
+    background-color: orange;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 5px;
 }
 
-.logoHeading{
+.logoHeading {
     display: inline-block;
 }
 
-.navigationLinks{
+.navigationLinks {
     display: inline-block;
-    width:100%;
-    text-align:center;
+    width: 100%;
+    text-align: center;
     margin-top: 15px;
-    margin-left:-4px;
 }
 
-@media only all and (min-width:768px){
-    .logoContainer{
-        width:25%;
-        text-align: left;
-    }
-    
-    .navigationLinks{
-        width:75%;
-        text-align:right;
-    }
-}
-
-li{
+li {
     display: inline-block;
     list-style-type: none;
 }
 
-.headerLinks{
-     color: black;
-     opacity: 0.5;
+.headerLinks {
+    color: black;
+    opacity: 0.5;
+}
+
+.companyServiceSection {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 100px 0px 70px 0px;
+    box-sizing: border-box;
+}
+
+.inputForm {
+    width: 50%;
+    display: inline-block;
+    margin-right: 10px 10px 0px 0px;
+}
+
+.orangeColorButton {
+    background: orange;
+    color: white;
+}
+
+.carImage {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 70px;
+    text-align:center;
+}
+
+.simpleAndHandyProcessSection {
+    margin: auto;
+    padding: 70px 0px 150px 0px;
+    text-align: center;
+    background: aliceblue;
+}
+
+.customerServices {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-sizing:border-box;
+    padding:5px;
+}
+
+.servicesBg {
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.orangeColorLine {
+    height: 2px;
+    width: 40px;
+    background-color: orange;
+    margin: auto;
+}
+
+.deliverySection {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.deliveryOptions{
+    display: inline-block;
+}
+
+@media only all and (min-width:768px) {
+    .logoContainer {
+        width: 25%;
+        text-align: left;
+    }
+
+    .navigationLinks {
+        width: 75%;
+        text-align: right;
+    }
+
+    .companyServiceSection {
+        width: 50%;
+        text-align: left;
+    }
+
+    .carImage {
+        width: 50%;
+    }
+
+    .customerServices {
+        width: 25%;
+    }
+
+}
+
+@media only all and (min-width:992px) {
+    .logoContainer {
+        width: 25%;
+        text-align: left;
+    }
+
+    .navigationLinks {
+        width: 75%;
+        text-align: right;
+    }
+
+    .companyServiceSection {
+        width: 50%;
+        text-align: left;
+    }
+
+    .carImage {
+        width: 50%;
+    }
+
+    .customerServices {
+        width: 25%;
+    }
+
+    .deliverySection {
+        width: 33.33%;
+        text-align: left;
+    }
+
 }

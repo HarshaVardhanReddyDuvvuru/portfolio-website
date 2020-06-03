@@ -1,66 +1,152 @@
-.logoImg{
-     background-color:orange;
-     border-radius: 50%;
-     padding:6px;
+.logoImg {
+    background-color: darkorange;
+    border-radius: 50%;
+    padding: 6px;
+    vertical-align: bottom;
 }
 
-li{
+li {
     display: inline-block;
     list-style-type: none;
 }
 
-.headerLinks{
-     color: black;
-     opacity: 0.5;
+.linksSection {
+    margin-top: 20px;
 }
 
-.opacity{
-    opacity: 0.5
+.headerLinks {
+    color: black;
+    opacity: 0.8;
 }
 
-.companyServiceSection{
-    margin-top:100px;
+.opacity {
+    opacity: 0.5;
 }
 
-.orangeColorButton{
-    background-color: orange;
-    color:white;
+.companyServiceSection {
+    margin-top: 120px;
+    margin-bottom: 20px;
 }
 
-.blockBg{
+.carSectionHeading {
+    line-height: 45px;
+    font-size: 40px;
+}
+
+.carImage {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.inputForm {
+    padding-left: 45px;
+}
+
+.simpleAndHandyProcessSpacing {
+    padding: 50px 0px 100px 0px;
+    margin: auto;
+}
+
+.simpleAndHandyProcessPara {
+    width: 100%;
+    margin: auto;
+}
+
+.orangeColorButton {
+    background-color: darkorange;
+    color: white;
+}
+
+.blockBg {
     background-color: Aliceblue;
 }
 
-.orangeColorLine{
-    height:2px;
-    width:40px;
-    background-color: orange;
+.orangeColorLine {
+    height: 2px;
+    width: 40px;
+    background-color: darkorange;
     margin-bottom: 40px;
 }
 
-.simpleAndHandyProcessSpacing{
-    padding: 90px 0px 140px 0px;
+.deliverySection {
+    margin-bottom: 60px;
 }
 
-.deliverySection{
-    margin-bottom:60px;
+.ourTeamSpacing {
+    padding: 50px 0px;
 }
 
-.ourTeamSpacing{
-    padding:50px 0px;
-}
-
-.contactBg{
-    padding:15px;
+.contactBg {
+    padding: 15px;
     background-color: white;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
-.profileImg{
+.profileImg {
     border-radius: 10px;
 }
 
-.testimonialSection{
-    margin-bottom: 100px;
+.teamBox {
+    margin: auto;
 }
 
+.testimonialSection {
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width:576px) {
+    .deliveryOption {
+        padding-left: 30px;
+    }
+
+    .inputForm {
+        padding-left: 85px;
+    }
+
+}
+
+@media only all and (min-width:768px) {
+    .linksSection {
+        margin-top: 31px;
+    }
+
+    .inputForm {
+        padding-left: 15px;
+    }
+
+    .simpleAndHandyProcessPara {
+        width: 700px;
+    }
+
+    .deliveryOption {
+        padding-left: 25px;
+    }
+
+    .carImage {
+        height: 250px;
+        width: 320px;
+        margin-top: 130px;
+    }
+
+}
+
+@media only all and (min-width:992px) {
+    .deliveryOption {
+        padding-left: 35px;
+    }
+
+    .carImage {
+        height: 340px;
+        width: 480px;
+        margin-top: 100px;
+    }
+
+    .carSectionHeading {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+}
