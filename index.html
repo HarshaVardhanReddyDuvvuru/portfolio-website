@@ -13,7 +13,7 @@
 
 <body>
 
-  <div class="container-fluid mainContainerBg">
+  <div class="container mainContainerBg">
     <div class="row">
       <div class="col-12  p-0">
         <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top py-2 ">
@@ -25,13 +25,16 @@
           <div class="collapse navbar-collapse ml-3" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
               <li class="nav-item active d-inline-block">
-                <a class="nav-link text-white" href="#myprojects">Work</a>
+                <a class="nav-link" href="#myprojects">Work</a>
               </li>
               <li class="nav-item active d-inline-block">
-                <a class="nav-link text-white" href="#aboutlink">About</a>
+                <a class="nav-link" href="#aboutlink">About</a>
               </li>
               <li class="nav-item active d-inline-block">
-                <a class="nav-link text-white" href="#contact-link">Contact</a>
+                <a class="nav-link" href="#contact-link">Contact</a>
+              </li>
+              <li class="nav-item active d-inline-block">
+                <a class="nav-link" href="assign.html">Resume</a>
               </li>
             </ul>
           </div>
@@ -129,22 +132,21 @@
   </div>
 
   <section class="myProjectsBg w-100">
-    <div class="container">
+    <div class="container d-none d-md-block">
       <div class="row mb-5">
         <div class="col-10 mt-4 mb-4">
           <h2 id=myprojects class="myProjects headingFont">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
         </div>
 
-        <div class="col-4 d-none d-lg-block">
+        <div class="col-4 d-none d-md-block">
           <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Stack Overflow Tag Count Scraper">Harsha The Robot</a>
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Stack Overflow Tag Count Scraper">Stack Overflow Tag Count Scraper</a>
             <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="Gmail Home Page">Gmail Home Page</a>
             <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Git Hub Home Page">Git Hub Home Page</a>
-            <a class="list-group-item list-group-item-action" id="list-fmt-list" data-toggle="list" href="#list-fmt" role="tab" aria-controls="Find My Things">Find My Things</a>
           </div>
         </div>
 
-        <div class="col-8 mb-5 d-none d-lg-block">
+        <div class="col-8 mb-5">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
               <div class="shadow p-5 bg-white cardRadius h-100 ">
@@ -172,63 +174,61 @@
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container d-md-none pl-5">
+      <div class="row mb-5">
+        <div class="col-10 mt-4 mb-4">
+          <h2 id=myprojects class="myProjects headingFont">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <b>Stack Overflow Tag Scraper</b>
+        </button>
+              </h2>
+            </div>
 
-            <div class="tab-pane fade" id="list-fmt" role="tabpanel" aria-labelledby="list-fmt-list">
-              <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
-                <h3 class="blueColor mb-2">Find My Things</h3>
-                <p class="grayText">
-                  Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
-                </p>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                I extracted 1000 information from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data and matplotlib library I analyzed the data using graphs.
               </div>
             </div>
-
           </div>
-        </div>
-
-        <div class="col-12 col-md-6 d-lg-none mb-4">
-          <div class="card  h-100 cardRadius shadow">
-            <div class="card-body">
-              <h3 class="blueColor ">Stack Overflow Tag Count Scraper</h3>
-              <p class="grayText mb-3">
-                I extracted 1000 information from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data and  matplotlib library I analyzed the data using graphs.
-              </p>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <b>Gmail Main Page</b>
+        </button>
+              </h2>
             </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 d-lg-none mb-4">
-          <div class="card  h-100  cardRadius shadow">
-            <div class="card-body">
-              <h3 class="blueColor">Gmail Web Home Page</h3>
-              <p class="grayText">
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
                 I had developed UI rich responsive web page same as Gmail’s main page using HTML5, CSS3, and Bootstrap4.
-              </p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-12 col-md-6 d-lg-none mb-4">
-          <div class="card h-100  cardRadius shadow">
-            <div class="card-body">
-              <h3 class="blueColor mb-2">Git Hub Home Page</h3>
-              <p class="grayText">
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <b>Github's Collections Page</b>
+        </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
                 I had developed UI rich responsive web page same as Github Collections page using HTML5, CSS3, and Bootstrap4.
-              </p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col-12 col-md-6 d-lg-none mb-4">
-          <div class="card h-100  cardRadius shadow">
-            <div class="card-body">
-              <h3 class="blueColor mb-2">Find My Things</h3>
-              <p class="grayText">
-                Find My Things is project which is based on the IoT technology. This device helps people to find their lost things very easily .
-              </p>
-            </div>
-          </div>
-        </div>
-
 
       </div>
     </div>
