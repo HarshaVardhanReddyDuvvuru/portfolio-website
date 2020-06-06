@@ -9,13 +9,132 @@
   <script src="bootstrap/popper.min.js"></script>
   <script src="bootstrap/bootstrap.min.js"></script>
   <script src="type_writer.js"></script>
+  <script>
+    $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function() {
+      var next = $(this).next();
+      if (!next.length) {
+        next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+
+      for (var i = 0; i < 4; i++) {
+        next = next.next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+      }
+    });
+  </script>
   <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 
 <body>
-  <nav>
+  <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+
+    <!--Controls-->
+    <div class="controls-top bg-primary">
+      <a class="btn-floating" href="#carousel-example-multi" data-slide="prev"><i
+        class="fas fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#carousel-example-multi" data-slide="next"><i
+        class="fas fa-chevron-right"></i></a>
+    </div>
+    <!--/.Controls-->
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+      <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+      <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+      <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+      <li data-target="#carousel-example-multi" data-slide-to="5"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <div class="carousel-inner v-2" role="listbox">
+
+      <div class="carousel-item active">
+        <div class="col-12 col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a class="btn btn-primary btn-md btn-rounded">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-12 col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (34).jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a class="btn btn-primary btn-md btn-rounded">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-12 col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (38).jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a class="btn btn-primary btn-md btn-rounded">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-12 col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (29).jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a class="btn btn-primary btn-md btn-rounded">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-12 col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (30).jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a class="btn btn-primary btn-md btn-rounded">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-12 col-md-4">
+          <div class="card mb-2">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title font-weight-bold">Card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a class="btn btn-primary btn-md btn-rounded">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--<nav>
     <div class="sidebar sidebarPadding shadow bg-white rounded py-2 pr-0">
-      <a href="#" class="d-none d-md-block pl-3"><span class="brand p-1">HD</span></a>      <a href="#myprojects">Work</a>
+      <a href="#" class="d-none d-md-block pl-3"><span class="brand p-1">HD</span></a>
+      <a href="#myprojects">Work</a>
       <a href="#aboutlink">About</a>
       <a href="assign.html">Resume</a>
       <a href="#contact-link">Contact</a>
@@ -25,7 +144,7 @@
   <div class="content p-0">
     <div class="container-fluid mainContainerBg pl-0">
       <div class="row intro">
-        <div class="col-12 text-center mb-4 p-0">
+        <div class="col-12 text-center mb-4">
           <img src="id.jpg" alt="Profile-photo" class="profileImg">
         </div>
 
@@ -192,127 +311,47 @@
         </div>
       </div>
     </div>
-    <section class="w-100 mb-5">
-      <div class="container d-none d-md-block pl-2 pr-4">
-        <div class="row mb-4">
-          <div class="col-10 mt-4 mb-4">
+
+        <section class="w-100 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-4 mb-4">
             <h2 id=myprojects class="myProjects headingFont pl-3">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
           </div>
 
-          <div class="col-4 d-none d-md-block pl-4">
-            <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Stack Overflow Tag Count Scraper">Stack Overflow Tag Count Scraper</a>
-              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="Gmail Home Page">Gmail Home Page</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Git Hub Home Page">Git Hub Home Page</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Find My Things">Find My Things</a>
+          <div class="projectCard col-12 col-md-6 p-2">
+            <div class="border rounded p-3 h-100">
+              <h3 class="blueColor ">Stack Overflow Tag Count Scraper</h3>
+              <p class="grayText mb-3">
+                I extracted 1000 information from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data and matplotlib library I analyzed the data using graphs.
+              </p>
             </div>
           </div>
 
-          <div class="col-8 mb-4">
-            <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                <div class="shadow p-5 bg-white cardRadius h-100 ">
-                  <h3 class="blueColor ">Stack Overflow Tag Count Scraper</h3>
-                  <p class="grayText mb-3">
-                    I extracted 1000 information from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data and matplotlib library I analyzed the data using graphs.
-                  </p>
-                </div>
-
-              </div>
-              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                <div class="shadow p-5 bg-white cardRadius h-100" id="card2">
-                  <h3 class="blueColor">Gmail Web Home Page</h3>
-                  <p class="grayText">
-                    I had developed UI rich responsive web page same as Gmail’s main page using HTML5, CSS3, and Bootstrap4.
-                  </p>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
-                  <h3 class="blueColor mb-2">Git Hub Home Page</h3>
-                  <p class="grayText">
-                    I had developed UI rich responsive web page same as Github Collections page using HTML5, CSS3, and Bootstrap4.
-                  </p>
-                </div>
-              </div>
-
-              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
-                  <h3 class="blueColor mb-2">Find My Things</h3>
-                  <p class="grayText">
-                    I develop a IoT based device which can be attached to daily things like keys, wallets,mobiles which is basically like a key chain but do powerful things like finding your device and even we can find this device by our phone.
-                  </p>
-                </div>
-              </div>
+          <div class="projectCard col-12 col-md-6 p-2">
+            <div class="border rounded p-3 h-100">
+              <h3 class="blueColor mb-2">Find My Things</h3>
+              <p class="grayText">
+                I develop a IoT based device which can be attached to daily things like keys, wallets,mobiles which is basically like a key chain but do powerful things like finding your device and even we can find this device by our phone.
+              </p>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="container d-md-none pl-2 pr-4">
-        <div class="row mb-4">
-          <div class="col-10 mt-4 mb-4">
-            <h2 id=myprojects class="myProjects pl-4 headingFont">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
+          <div class="projectCard col-12 col-md-6 p-2">
+            <div class="border p-3 h-100 rounded">
+              <h3 class="blueColor">Gmail Web Home Page</h3>
+              <p class="grayText">
+                I had developed UI rich responsive web page same as Gmail’s main page using HTML5, CSS3, and Bootstrap4.
+              </p>
+            </div>
           </div>
-          <div class="accordion pl-4" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          <b>Stack Overflow Tag Scraper</b>
-        </button>
-                </h2>
-              </div>
 
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                  I extracted 1000 information from the Stack Overflow Website using the python HTTP requests module and I used the Beatiful Soup module in python to parse the data and matplotlib library I analyzed the data using graphs.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <b>Gmail Main Page</b>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                  I had developed UI rich responsive web page same as Gmail’s main page using HTML5, CSS3, and Bootstrap4.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <b>Github's Collections Page</b>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                  I had developed UI rich responsive web page same as Github Collections page using HTML5, CSS3, and Bootstrap4.
-                </div>
-              </div>
-            </div>
-            
-             <div class="card">
-              <div class="card-header" id="headingFour">
-                <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    <b>Find My Things</b>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                    I develop a IoT based device which can be attached to daily things like keys, wallets,mobiles which is basically like a key chain but do powerful things like finding your device and even we can find this device by our phone.
-                </div>
-              </div>
+          <div class="projectCard col-12 col-md-6 p-2">
+            <div class="border p-3 h-100 rounded">
+              <h3 class="blueColor mb-2">Git Hub Home Page</h3>
+              <p class="grayText">
+                I had developed UI rich responsive web page same as Github Collections page using HTML5, CSS3, and Bootstrap4.
+              </p>
             </div>
           </div>
 
@@ -327,7 +366,7 @@
           <h2 class="myEducation headingFont ">My <b>Educ<span class="blueUnderline">tion</span></b></h2>
         </div>
 
-        <div class="col-12 col-lg-4 blueBg whiteColor text-center py-4 mb-lg-4">
+        <div class="col-12 col-lg-4 blueBg whiteColor text-center py-4 mb-md-4">
           <h4 class="mt-4">2017-2021</h4>
           <h3>Bachelor's Degree</h3>
         </div>
@@ -342,7 +381,7 @@
           </p>
         </div>
 
-        <div class="col-12 col-lg-4 blueBg whiteColor text-center py-4 mb-lg-4" id="card2.0">
+        <div class="col-12 col-lg-4 blueBg whiteColor text-center py-4 mb-md-4" id="card2.0">
           <h4 class="mt-4">2015-2017</h4>
           <h3>Pre-University Course</h3>
         </div>
@@ -357,7 +396,7 @@
         </div>
 
 
-        <div class="col-12 blueBg whiteColor text-center py-4 col-lg-4 mb-lg-4 id=" card3.0 "">
+        <div class="col-12 blueBg whiteColor text-center py-4 col-lg-4 mb-md-4 id=" card3.0 "">
           <h4 class="mt-4">2014-2015</h4>
           <h3>Secondary Schooling</h3>
         </div>
@@ -429,10 +468,10 @@
         <div class="row">
           <div class="col-lg-6 d-none d-lg-block">
             <ul class="list-inline footerIcons mt-5">
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/facebook.svg" class="fb icon"/></a></li>
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/twitter.svg" class="twitter icon"/></a></li>
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/instagram.svg" class="insta icon"/></a></li>
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/linkedin.svg" class="linkedin icon"/></a></li>
+              <li class="list-inline-item"><a><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png" class="logoImg"/></a></li>
+              <li class="list-inline-item"><a><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter-circled.png" class="logoImg1"/></a></li>
+              <li class="list-inline-item"><a><img src="https://img.icons8.com/metro/26/000000/pinterest.png" class="logoImg"/></a></li>
+              <li class="list-inline-item"><a><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled.png" class="logoImg1"/></a></li>
 
             </ul>
           </div>
@@ -446,7 +485,7 @@
         </div>
       </div>
     </footer>
-  </div>
+  </div>-->
 
 </body>
 

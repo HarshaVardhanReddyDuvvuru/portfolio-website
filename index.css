@@ -1,27 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Creepster&family=Dancing+Script&family=Ewert&family=Fruktur&family=Monoton&family=Black+Ops+One&family=Bungee&family=monsterrat:wght@600&display=swap');
 
 .mainContainerBg {
-    background-image: url(https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=brandi-redd-aJTiW00qqtI-unsplash.jpg);
-    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hugo-barbosa-TnG2q8FtXsg-unsplash.jpg&w=1920');
 }
 
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
-
-.nameStyles {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-nav a:hover {
-    border-bottom: 2px solid white;
-    width:70px;
+.brand {
+    font-size: 24px;
+    border: 3px solid black;
+    border-radius: 100%;
 }
 
 .intro {
-    padding: 200px 100px;
+    padding: 150px 100px 250px 100px;
 }
 
 .introText {
@@ -74,32 +68,20 @@ h3 {
 }
 
 .skills {
-    font-size: 20px;
-}
-
-.myProjectsBg {
-    /*background-color: #f3f3f3;*/
-    padding-bottom: 50px;
-}
-
-.pagination a {
-    color: dodgerblue;
-    float: left;
-    padding: 20px 10px;
-    font-size: 35px;
-    transition: background-color .3s;
+    font-size: 16px;
 }
 
 .myProjects {
     font-size: 30px;
 }
 
-.cardRadius {
-    border-radius: 15px;
+.projectCard {
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 .blueColor {
-    color:dodgerblue;
+    color: dodgerblue;
 }
 
 .myEducation {
@@ -130,7 +112,7 @@ h3 {
     font-weight: bold;
     color: dodgerblue;
     font-size: 22px;
-    margin-left:90px;
+    margin-left: 30%;
 }
 
 .socialIcon {
@@ -139,38 +121,117 @@ h3 {
 }
 
 .blueBg {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
 }
 
 
 .footerBg {
-    background-color:#2d3a51;
+    background-color: #2d3a51;
 }
 
-.logoImg{
-    filter:invert(100%);
-    color:white;
+.icon {
+    height: 30px;
+    width: 30px;
 }
 
 .footerLinks {
     font-size: 20px;
     color: white;
-    text-align:center;
+    text-align: center;
 }
 
 @media only all and (min-width:1024px) {
 
-    .footerLinks{
-        text-align:right;
-        margin-right:10%
+    .footerLinks {
+        text-align: right;
+        margin-right: 10%
     }
 
 }
 
-.footerIcons{
-        margin-left:10%
+.footerIcons {
+    margin-left: 10%
 }
 
-.footerIcons a:hover{
-    background-color: #424e62;
+.footerIcons .fb:hover {
+    filter: invert(39%) sepia(57%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(147.75%) hue-rotate(202deg) brightness(97%) contrast(96%)
+}
+
+.footerIcons .insta:hover {
+    filter: invert(32%) sepia(47%) saturate(5699%) hue-rotate(323deg) brightness(92%) contrast(90%);
+}
+
+.footerIcons .twitter:hover {
+    filter: invert(47%) sepia(98%) saturate(1698%) hue-rotate(163deg) brightness(98%) contrast(100%);
+}
+
+.footerIcons .linkedin:hover {
+    filter: invert(36%) sepia(92%) saturate(817%) hue-rotate(167deg) brightness(82%) contrast(92%);
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-left: auto;
+
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+.sidebarPadding {
+    padding-left: 20px;
+}
+
+@media screen and (min-width:400px) {
+    .sidebarPadding {
+        padding-left: 15%;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .sidebarPadding {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .sidebarPadding {
+        padding-left: 10px;
+        padding-right: 0;
+    }
 }
