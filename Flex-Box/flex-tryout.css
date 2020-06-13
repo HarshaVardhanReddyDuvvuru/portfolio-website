@@ -1,0 +1,57 @@
+body{
+    padding:1.5em;
+}
+
+.header{
+    background-color:orange;
+}
+
+.main{
+    background-color:green;
+
+}
+
+.aside-1{
+    background-color:blue;
+}
+
+.aside-2{
+    background-color:yellow;
+}
+
+.footer{
+    background-color:royalblue;
+}
+
+.wrapper{
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.wrapper > *{
+    padding:20px;
+    text-align:center;
+    flex:1 100%;
+}
+
+@media screen and (min-width:600px){
+    .aside{
+        flex:1 auto;
+    }
+}
+
+@media screen and (min-width:800px){
+    .main{
+        flex:2 0px;
+        order:2;
+    }
+    .aside-1{
+        order:1;
+    }
+    .aside-2{
+        order:3;
+    }
+    .footer{
+        order:4;
+    }
+}

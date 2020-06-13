@@ -1,0 +1,43 @@
+.box1 {
+    background: dodgerblue;
+}
+
+.box2 {
+    background: violet;
+}
+
+.box3 {
+    background: yellow;
+}
+
+.box4 {
+    background: green;
+}
+
+.htmlImg {
+    height: 80px;
+}
+
+.cssImg {
+    height: 100px;
+}
+
+.bootstrapImg {
+    height: 60px;
+}
+
+.jsImg {
+    height: 100px;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.wrapper>* {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

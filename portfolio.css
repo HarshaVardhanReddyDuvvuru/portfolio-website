@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Creepster&family=Dancing+Script&family=Ewert&family=Fruktur&family=Monoton&family=Black+Ops+One&family=Bungee&family=monsterrat:wght@600&display=swap');
 
 .mainContainerBg {
-    background-image: url('maclap.jpg');
-    height:500px;
-    background-size:cover;
+    background-image: url('https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hugo-barbosa-TnG2q8FtXsg-unsplash.jpg&w=1920');
 }
 
-@media screen and (min-width:768px){
-    .mainContainerBg {    
-     background-image: url('mac.jpg');    
-     height:auto;
-    }
+* {
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    
+
 }
 
 .brand {
@@ -90,6 +85,22 @@ h3 {
     display: inline-block;
 }
 
+.zoom {
+    box-shadow: 0 0 20px #fff;
+    transition: transform .2s;
+    margin: 0 auto;
+    
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.01);
+    /* IE 9 */
+    -webkit-transform: scale(1.01);
+    /* Safari 3-8 */
+    transform: scale(1.01);
+    background-color: rgba(255,0,0,1);
+}
+
 .blueColor {
     color: dodgerblue;
 }
@@ -110,7 +121,7 @@ h3 {
     font-size: 30px;
 }
 
-.hobbyImg{
+.hobbyImg {
     height: 50px;
 }
 
@@ -200,7 +211,7 @@ body {
 .sidebar a {
     display: block;
     color: black;
-    padding: 10px;
+    padding: 16px;
     text-decoration: none;
     font-weight: 600;
 }
@@ -216,7 +227,7 @@ div.content {
         width: 100%;
         height: auto;
         position: relative;
-        margin: auto;
+        margin-left: auto;
 
     }
     .sidebar a {
@@ -231,9 +242,9 @@ div.content {
     padding-left: 20px;
 }
 
-@media screen and (min-width:414px) {
+@media screen and (min-width:400px) {
     .sidebarPadding {
-        padding-left:20px;
+        padding-left: 15%;
     }
 }
 

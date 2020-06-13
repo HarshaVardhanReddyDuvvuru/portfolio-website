@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Harsha Vardhan Duvvuru</title>
@@ -16,7 +16,8 @@
 <body>
   <nav>
     <div class="sidebar sidebarPadding shadow bg-white rounded py-2 pr-0">
-      <a href="#" class="d-none d-md-block pl-3"><span class="brand p-1">HD</span></a>      <a href="#myprojects">Work</a>
+      <a href="#" class="d-none d-md-block">Home</a>
+      <a href="#myprojects">Work</a>
       <a href="#aboutlink">About</a>
       <a href="assign.html">Resume</a>
       <a href="#contact-link">Contact</a>
@@ -28,22 +29,23 @@
       <div class="row intro">
         <div class="col-12 text-center mb-4 p-0">
           <img src="id.jpg" alt="Profile-photo" class="profileImg">
+
         </div>
 
         <div class="col-12 text-center">
-          <h1>
-            <a href="" class="typewrite text-dark introText" data-period="2000" data-type='[ "Hi, Im Harsha.", "I am Creative.", "I Love to Develop." ]'>
+          <div>
+            <a href="" class="typewrite text-white introText" data-period="2000" data-type='[ "Hi, Im Harsha.", "I am Creative.", "I Love to Develop." ]'>
               <span class="wrap"></span>
             </a>
-          </h1>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container p-4">
+    <div class="container p-4" id="aboutlink">
       <div class="row py-5">
         <div class="col-12 mb-4">
-          <h2 class="about" id="aboutlink">About <span class="blueUnderline headingFont"><b>Me</b></span></h2>
+          <h2 class="about">About <span class="blueUnderline headingFont"><b>Me</b></span></h2>
         </div>
         <div class="col-12 mb-4 col-lg-6 ">
           <p class="aboutMe">
@@ -52,13 +54,13 @@
 
           <div class="mx-auto my-4 d-inline-block">
             <p class="d-inline-block">
-              <a class="btn btn-primary" href="#contact-link" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <a class="btn btn-primary" href="#contact-link" role="button" aria-expanded="false">
                 Contact Me
             </a>
             </p>
 
             <div class="dropdown d-inline-block">
-              <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="btn btn-primary dropdown-toggle d-none" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Know more
             </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -192,7 +194,7 @@
             <div class="col-12 col-md-6 mb-3">
               <div class="row">
                 <div class="col-6">
-                  Git 
+                  Git
                 </div>
                 <div class="text-right col-6 mb-2">
                   <span>65%</span>
@@ -208,25 +210,28 @@
         </div>
       </div>
     </div>
-    <section class="w-100 mb-5">
+    <section class="w-100 mb-5" id=myprojects>
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mt-4 mb-4">
+            <h2 class="myProjects headingFont pl-3">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
+          </div>
+        </div>
+      </div>
       <div class="container d-none d-md-block pl-2 pr-4">
         <div class="row mb-4">
-          <div class="col-10 mt-4 mb-4">
-            <h2 id=myprojects class="myProjects headingFont pl-3">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
-          </div>
-
           <div class="col-4 d-none d-md-block pl-4">
             <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Stack Overflow Tag Count Scraper">Stack Overflow Tag Count Scraper</a>
-              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="Gmail Home Page">Gmail Home Page</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Git Hub Home Page">Git Hub Home Page</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Find My Things">Find My Things</a>
+              <a class="list-group-item list-group-item-action active" id="list-project1-list" data-toggle="list" href="#list-project1" role="tab" aria-controls="list-project1">Stack Overflow Tag Count Scraper</a>
+              <a class="list-group-item list-group-item-action" id="list-project2-list" data-toggle="list" href="#list-project2" role="tab" aria-controls="list-project2">Gmail Home Page</a>
+              <a class="list-group-item list-group-item-action" id="list-project3-list" data-toggle="list" href="#list-project3" role="tab" aria-controls="list-project3">Git Hub Home Page</a>
+              <a class="list-group-item list-group-item-action" id="list-project4-list" data-toggle="list" href="#list-project4" role="tab" aria-controls="list-project4">Find My Things</a>
             </div>
           </div>
 
           <div class="col-8 mb-4">
             <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <div class="tab-pane fade show active" id="list-project1" role="tabpanel" aria-labelledby="list-project1-list">
                 <div class="shadow p-5 bg-white cardRadius h-100 ">
                   <h3 class="blueColor ">Stack Overflow Tag Count Scraper</h3>
                   <p class="grayText mb-3">
@@ -235,7 +240,7 @@
                 </div>
 
               </div>
-              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <div class="tab-pane fade" id="list-project2" role="tabpanel" aria-labelledby="list-project2-list">
                 <div class="shadow p-5 bg-white cardRadius h-100" id="card2">
                   <h3 class="blueColor">Gmail Web Home Page</h3>
                   <p class="grayText">
@@ -244,7 +249,7 @@
                 </div>
               </div>
 
-              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <div class="tab-pane fade" id="list-project3" role="tabpanel" aria-labelledby="list-project3-list">
                 <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
                   <h3 class="blueColor mb-2">Git Hub Home Page</h3>
                   <p class="grayText">
@@ -253,8 +258,8 @@
                 </div>
               </div>
 
-              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                <div class="shadow p-5 bg-white cardRadius h-100" id="card3">
+              <div class="tab-pane fade" id="list-project4" role="tabpanel" aria-labelledby="list-project4-list">
+                <div class="shadow p-5 bg-white cardRadius h-100" id="card4">
                   <h3 class="blueColor mb-2">Find My Things</h3>
                   <p class="grayText">
                     I develop a IoT based device which can be attached to daily things like keys, wallets,mobiles which is basically like a key chain but do powerful things like finding your device and even we can find this device by our phone.
@@ -268,9 +273,6 @@
 
       <div class="container d-md-none pl-2 pr-4">
         <div class="row mb-4">
-          <div class="col-10 mt-4 mb-4">
-            <h2 id=myprojects class="myProjects pl-4 headingFont">My <b>Proje<span class="blueUnderline">cts</span></b></h2>
-          </div>
           <div class="accordion pl-4" id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingOne">
@@ -315,8 +317,8 @@
                 </div>
               </div>
             </div>
-            
-             <div class="card">
+
+            <div class="card">
               <div class="card-header" id="headingFour">
                 <h2 class="mb-0">
                   <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -326,7 +328,7 @@
               </div>
               <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
-                    I develop a IoT based device which can be attached to daily things like keys, wallets,mobiles which is basically like a key chain but do powerful things like finding your device and even we can find this device by our phone.
+                  I develop a IoT based device which can be attached to daily things like keys, wallets,mobiles which is basically like a key chain but do powerful things like finding your device and even we can find this device by our phone.
                 </div>
               </div>
             </div>
@@ -373,7 +375,7 @@
         </div>
 
 
-        <div class="col-12 blueBg whiteColor text-center py-4 col-lg-4 mb-lg-4 id=" card3.0 "">
+        <div class="col-12 blueBg whiteColor text-center py-4 col-lg-4 mb-lg-4" id="card3.0">
           <h4 class="mt-4">2014-2015</h4>
           <h3>Secondary Schooling</h3>
         </div>
@@ -381,7 +383,6 @@
           <h4>SSC</h4>
           <h5>Dachur</h5>
           <p class="grayText"> It is the one of the best moments of my life , I used to play cricket everyday, do what I love.
-          </p>
           </p>
         </div>
       </div>
@@ -394,27 +395,28 @@
             <h2 class="myHobbies headingFont mt-3">My <b>Hobb<span class="blueUnderline">ies</span></b></h2>
           </div>
           <div class="col-12 col-lg-4 mb-4">
-            <img src="static/Hobbies/travelling/Group 350.png" height=50px width=50px alt="Travelling">
-            <span class="ml-4">Travelling</span>
-          </div>
-          <div class="col-12 col-lg-4 mb-4">
-            <img src="static/Hobbies/music-player/music-player.png" height=50px width=50px alt="Music">
+            <img src="static/Hobbies/music-player/music-player.png" alt="Music" class="hobbyImg">
             <span class="ml-4">Music</span>
 
           </div>
           <div class="col-12 col-lg-4 mb-4">
-            <img src="static/Hobbies/swimming/swimming.png" height=50px width=50px alt="Swimmming">
+            <img src="static/Hobbies/swimming/swimming.png" alt="Swimmming" class="hobbyImg">
             <span class="ml-4">Swimmming</span>
 
           </div>
           <div class="col-12 col-lg-4 mb-4">
-            <img src="static/Hobbies/open-book/open-book.png" height=50px width=50px alt="Book">
+            <img src="static/Hobbies/open-book/open-book.png" alt="Book" class="hobbyImg">
             <span class="ml-4">Book Reading</span>
           </div>
 
           <div class="col-12 col-lg-4 mb-4">
-            <img src="static/Hobbies/cricket-player/cricket-player.png" height=50px width=50px alt="Cricket">
+            <img src="static/Hobbies/cricket-player/cricket-player.png" alt="Cricket" class="hobbyImg">
             <span class="ml-4">Cricket</span>
+          </div>
+
+          <div class="col-12 col-lg-4 mb-4">
+            <img src="static/Hobbies/travelling/Group350.png" alt="Travelling" class="hobbyImg pl-2">
+            <span class="ml-4">Travelling</span>
           </div>
         </div>
       </section>
@@ -431,10 +433,10 @@
         <div class="col-12 socialMedia Card col-lg-6  mt-5 mb-4">
           <h5 class="follow mb-4 ">Follow Me On</h5>
           <ul class="list-inline text-center">
-            <li class="list-inline-item mr-3"><a href="https://www.facebook.com/harshavardhan.duvvuru"><img class="socialIcon" src="static/Social Icons/facebook.svg" alt="Facebook"></a></li>
-            <li class="list-inline-item mr-3"><img class="socialIcon" src="static/Social Icons/linkedin.svg" alt="Linkedin"></li>
-            <li class="list-inline-item mr-3"><img class="socialIcon" src="static/Social Icons/pinterest.svg" alt="Pinterst"></li>
-            <li class="list-inline-item "><a href="https://www.instagram.com/duvvuruharshavardhan/"><img class="socialIcon" src="static/Social Icons/instagram.svg" alt="Instagram"></a></li>
+            <li class="list-inline-item mr-3"><a href="https://www.facebook.com/harshavardhan.duvvuru"><img src="static/SocialIcons/facebook.svg" alt="Facebook" class="socialIcon" ></a></li>
+            <li class="list-inline-item mr-3"><img src="static/SocialIcons/linkedin.svg" alt="Linkedin" class="socialIcon"></li>
+            <li class="list-inline-item mr-3"><img src="static/SocialIcons/pinterest.svg" alt="Pinterst" class="socialIcon"></li>
+            <li class="list-inline-item "><a href="https://www.instagram.com/duvvuruharshavardhan/"><img src="static/SocialIcons/instagram.svg" alt="Instagram" class="socialIcon" ></a></li>
           </ul>
         </div>
       </div>
@@ -444,16 +446,16 @@
       <div class="conatiner">
         <div class="row">
           <div class="col-lg-6 d-none d-lg-block">
-            <ul class="list-inline footerIcons mt-5">
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/facebook.svg" class="fb icon"/></a></li>
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/twitter.svg" class="twitter icon"/></a></li>
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/instagram.svg" class="insta icon"/></a></li>
-              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/linkedin.svg" class="linkedin icon"/></a></li>
+            <ul class="list-inline footerIcons mt-4">
+              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/facebook.svg" alt="fb icon" class="fb icon"/></a></li>
+              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/twitter.svg" alt="twitter icon" class="twitter icon"/></a></li>
+              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/instagram.svg" alt="insta icon" class="insta icon"/></a></li>
+              <li class="list-inline-item"><a><img src="assignments/assignment-31/assets/linkedin.svg" alt="linkedin icon" class="linkedin icon"/></a></li>
 
             </ul>
           </div>
-          <div class="col-12 col-lg-6 p-5">
-            <ul class="list-inline footerLinks mb-5">
+          <div class="col-12 col-lg-6 p-4">
+            <ul class="list-inline footerLinks mb-4">
               <li class="list-inline-item">Work</li>
               <li class="list-inline-item">About</li>
               <li class="list-inline-item">Contact</li>

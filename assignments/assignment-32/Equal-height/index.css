@@ -1,0 +1,36 @@
+.icon{
+    height:150px;
+    background-color:rgb(204,255,255);
+}
+
+.content{
+    background-color: white;
+    padding:10px;
+}
+
+.wrapper{
+    display:flex;
+    background:#009999;
+    justify-content:center;
+    padding:50px;
+}
+
+.box{
+    margin:7px;
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    border-radius:5px;
+    overflow: hidden;
+}
+
+.icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.content{
+    flex:1;
+    color:#009999;
+}
