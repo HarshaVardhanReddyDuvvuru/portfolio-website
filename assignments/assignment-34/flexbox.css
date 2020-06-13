@@ -1,0 +1,120 @@
+.logoBox img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.brand img {
+    height: 20px;
+}
+
+.grayText {
+    color: gray;
+}
+
+.dropdown img {
+    height: 20px;
+}
+
+ul img {
+    height: 30px;
+}
+
+@media (max-width:500px) {
+    ul img {
+        height: 20px;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li:nth-child(5) {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    li:nth-child(4) {
+        display: none;
+    }
+    li:nth-child(5) {
+        display: block;
+    }
+}
+
+
+.wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+    padding: 0px 20px;
+}
+
+.contentBox>* {
+    margin: 0;
+}
+
+.tweetContainer {
+    display: flex;
+    align-items: baseline;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand {
+    display: flex;
+    flex: 1;
+}
+
+.brand>* {
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+@media (min-width:500px) {
+    p {
+        font-size: 24px;
+    }
+}
+
+.tweetLinks ul {
+    margin-top: 10px;
+    display: flex;
+}
+
+.tweetLinks ul li {
+    flex: 1 1 25%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+li span {
+    margin-left: 5px;
+    font-size:14px;
+}
+
+@media (min-width:500px) {
+    li span {
+        margin-left: 10px;
+        font-size:16px;
+    }
+    
+
+}
